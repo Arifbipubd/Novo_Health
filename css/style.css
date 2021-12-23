@@ -87,6 +87,11 @@ a{
   }
   
   
+  /*border*/
+
+  .border-pm{
+    border: 1px solid #013988;
+  }
   
   
   /* display */
@@ -104,70 +109,25 @@ a{
   .cl-green {
     color: #78C2A4;
   }
+  .cl-blue{
+    color: #6C63FF;
+  }
   .bg-cl-pm{
     background-color: #013988;
   }
-  .bg-cl-pink2 {
-    background-color : #FF8B93;
+  .bg-cl-light-black{
+    background-color : #252C41;
   }
   .bg-cl-grey{
     background-color: #9BA1B1;
   }
   .bg-cl-grey2{
-    background-color:#F3F8FF;
-  }
-  .bg-cl-grey3{
-    background-color: #F2F2F2;
-  }
-  .bg-cl-grey4{
-    background-color: #E9EDF3;
-  }
-  .bg-cl-grey5{
-    background-color: #F3F7FC;
+    background-color:#F4F9FF;
   }
   .bg-cl-green{
     background-color: #16D8B1;
   }
-  .bg-cl-green2{
-    background-color: #78c2a42c;
-  }
-  .bg-cl-green3{
-    background-color: #ECFFEF;
-  }
-  .bg-cl-parrot{
-    background-color: #ECF5EC;
-  }
-  .bg-cl-light-green{
-    background-color: #E5F4F3;
-  }
-  .bg-cl-light-red{
-    background-color: #FDE8EF;
-  }
-  .bg-cl-light-yellow{
-    background-color: #FFF1EA;
-  }
-  .bg-cl-ash{
-    background-color: #98A6C0;
-  }
-  .bg-light-pink{
-    background-color: #F9F9F9;
-  }
-  .bg-light-pink2{
-    background-color: #FAFAFA;
-  }
   
-  .bg-cl-light-blue{
-    background-color: #6C63FF;
-  }
-  .bg-cl-red{
-    background-color: #CA222E;
-  }
-  .color-red{
-    color: #CA222E;
-  }
-  .color-yellow {
-    color: #FBC56D;
-  }
   .color-grey {
     color:#9BA1B1;
   }
@@ -179,9 +139,6 @@ a{
   }
   .color-white {
     color:white;
-  }
-  .color-span{
-    color: #95A0B0;
   }
   
 
@@ -411,7 +368,7 @@ a{
     background-size: cover;
   }
 
-  .homeTopBanner button{
+  .btn-2 button{
       border-radius: 100px;
   }
   .homeTopBannerLeft{
@@ -482,7 +439,124 @@ a{
   .porishongkhanLeft{
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 40%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
+
+  /*Doctor*/
+
+  .doctorImg{
+    width: 111px;
+    height: 111px;
+  }
+  
+  .doctorImg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .doctorCard{
+    box-shadow: 0px 4px 14px rgba(198, 203, 221, 0.25);
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .doctorCard:hover {
+    background-color: #013988;
+  }
+  .doctorCard:hover .doctorName h4{
+    color: white;
+  }
+  .doctorCard:hover .doctorName h5{
+    color: white;
+  }
+  .doctorCard:hover .doctorCardBottom small{
+    color: white;
+  }
+
+  .doctorCard:hover .doctorBtn button{
+    background-color: #16D8B1;
+  }
+
+  /*Subida*/
+
+  .subida{
+    background-image: url(../assets/image/body/subidabg.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .subidaMiddleImg img{
+    width: 100%;
+  }
+
+  .subidaIcon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+
+
+  /*Contact*/
+
+  .contactIcon{
+    width: 40px;
+    height: 40px;
+    background: rgba(1, 57, 136, 0.1);
+    border-radius: 50%;
+  }
+
+  .contact input:focus{
+    outline: 1px solid #013988;
+    box-shadow: none;
+  }
+
+  /*Question*/
+
+  .question-text{
+    display: none;
+  }
+
+  .question-text {
+    display: none;
+  }
+  .mocktestShow-text .question-text {
+    display: block;
+  }
+  .minus-icon {
+    display: none;
+  }
+  .mocktestShow-text .minus-icon {
+    display: inline;
+  }
+  .mocktestShow-text .plus-icon {
+    display: none;
+  }
+  .question-text{
+    border-radius: 0 0 10px 10px;
+  }
+
+
+  /*Download App*/
+
+  .downloadAppRight img{
+    width: 100%;
+  }
+
+
+  /*Map*/
+
+  .mapLeft{
+    flex-basis: 50%;
+  }
+  .mapRight{
+    flex-basis: 50%;
+  }
+  .mapRight iframe{
+    width: 100%;
+    height: 100%;
+  }
+  
