@@ -109,6 +109,9 @@ a{
   .cl-green {
     color: #78C2A4;
   }
+  .cl-green2{
+    color: #16D8B1;
+  }
   .cl-blue{
     color: #6C63FF;
   }
@@ -131,6 +134,9 @@ a{
   .color-grey {
     color:#9BA1B1;
   }
+  .color-grey2{
+    color:#BABFCF;
+  }
   .color-green {
     color:#78C2A4;
   }
@@ -140,6 +146,18 @@ a{
   .color-white {
     color:white;
   }
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
   
 
 
@@ -560,3 +578,71 @@ a{
     height: 100%;
   }
   
+  /*Offer*/
+
+  .offerTop{
+    background-image: url(../assets/image/body/offer-bg.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .offerCard{
+    border-radius: 20px;
+  }
+
+  .offerCard2Heading{
+    border-radius: 20px;
+  }
+
+  .offerCard2{
+    margin-top: -100px;
+  }
+
+  .offerBtn button:hover{
+    background-color: #16D8B1;
+  }
+
+
+  /*Registration*/
+
+  .registration{
+    height: 100%;
+  }
+
+  .regLeftList ul li{
+    line-height: 3;
+  }
+
+
+  /*Responsive Media */
+
+  @media(max-width:1200px){
+    .porishongkhanLeft{
+      position: relative;
+      text-align: center;
+    }
+  }
+  @media(max-width:1000px){
+    .offerCard2{
+      margin-top: 0;
+    }
+    .offerCard2Heading{
+      background-color: #F4F9FF !important;
+    }
+  }
+  @media(max-width:700px){
+    .mapContent{
+      flex-direction: column;
+    }
+    .mapLeft{
+      padding: 100px 0;
+    }
+  }
+  @media(max-width:450px){
+    .downloadAppLeftIcon{
+      flex-direction: column;
+    }
+    .downloadAppLeftIcon1{
+      margin-right: 0!important;
+    }
+  }
