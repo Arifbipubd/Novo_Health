@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoVo Health</title>
+    <link rel="icon" href="assets/image/header/fav.png" type="image/icon">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-----Bootstrap Bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-----Owl Carousal-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <!-- header start -->
+    <section class="desktopVersion">
+        <div class="topHeader bg-cl-pm">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex flex-wrap align-items-center">
+                        <div class="mx-2">
+                            <small class="fw-lighter"><i class="far fa-envelope me-2"></i>info@nobohealth.com.bd</small>
+                        </div>
+                        <div class="mx-2">
+                            <small class="fw-lighter"><i
+                                    class="fas fa-phone-alt me-2"></i>info@nobohealth.com.bd</small>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="mx-2 languageChange">
+                            <div class="change">
+                                <input id="engtoggle" class="engtoggle engtoggle-round-flat" type="checkbox">
+                                <label for="engtoggle"></label>
+                                <span class="off">En</span>
+                                <span class="on">Bn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Header-->
+        <div class="bottomHeader">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid px-0 py-2">
+                        <div class="bottomHeader-img cursor">
+                            <img src="assets/image/header/logo.png" alt="" onclick="window.location.href='index.html'">
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse " id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link fw-bold" href="#">হোম</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link fw-bold" href="#">ডাক্তার</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link fw-bold" href="#">গ্যালারী</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link fw-bold" href="#">অফারসমুহ</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link fw-bold" href="#">সুবিধাসমুহ</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link fw-bold" href="#">অ্যাপয়েন্টমেন্ট</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link fw-bold" href="#">যোগাযোগ</a>
+                                </li>
+                                <li class="nav-item ms-5">
+                                    <a class="btn bg-cl-green border-0 px-3 text-white rounded-3" href="#downloadApp" role="button">অ্যাপ ডাউনলোড</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!-- header end -->
+
+    <section class="doctorPortfolio">
+        <!-- about section -->
+        <div class="about">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xl-5 col-lg-6 col-md-5 col-12 mb-4">
+                        <div class="aboutImage">
+                            <img class="desktop" src="assets/image/doctorPortfolio/about/nobohealthAboutDoctor.png"
+                                alt="">
+                            <img class="mobile d-none"
+                                src="assets/image/doctorPortfolio/about/nobohealthAboutDoctorMobile.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6 col-md-7 col-12">
+                        <div class="aboutDescription mb5">
+                            <h2 class="cl-pm fw-bold">ডাঃ সাইফ উদ্দিন</h2>
+                            <p class="mb-0">
+                                এমবিবিএস, এফসিপিএস (সার্জারি), এম আর সি এস(Edin), এমআরসিপিএস (Glasg,
+                            </p>
+                            <p class="mb-0">এফ আর সি এস(Glasg),</p>
+                            <p class="mb-0">লিভার ট্রান্সপ্ল্যান্ট ফেলো (মেডান্টা - দিল্লী এন সি আর),</p>
+                            <p class="mb-0">মেম্বারঃ ইন্টারন্যাশনাল লিভার ট্রান্সপ্লান্ট সোশাইটি (ILTS),</p>
+                            <p class="mb-0">
+                                এ্যাডভান্স ট্রেনিং ইন হ্যাপাটোবলিয়ারি, প্যানক্রিয়াটিক ও লিভার ট্রান্সপ্লান্ট
+                                সার্জারি
+                            </p>
+                            <p class="mb-0">(জাপান)।</p>
+                        </div>
+                        <div class="aboutBtn">
+                            <button type="button" class="btn bg-cl-pm text-white border-0">বার্তা পাঠান</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- experience section -->
+        <div class="experience">
+            <div class="container">
+                <div class="description text-center">
+                    <h2 class="cl-pm fw-bold">অভিজ্ঞতা</h2>
+                    <p class="mb-0">
+                        এ্যাসোসিয়েট প্রফেসর, ডিপার্টমেন্ট অফ হ্যাপাটোবিলিয়ারি, প্যানক্রেটিক ও লিভার ট্রান্সপ্ল্যান্ট
+                        সার্জারি।
+                    </p>
+                    <p class="mb-0">
+                        বঙ্গবন্ধু শেখ মজিবুর রহমান মেডিকেল বিশ্ববিদ্যালয়, ঢাকা।
+                    </p>
+                    <p class="mb-0">
+                        মোবাইলঃ ০১৮১৮ ৩১১৫৭৫, ০১৭১৫ ৪৭৬৬৬০
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- about doctor -->
+        <div class="aboutDoctor">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6 col-12 mb-4">
+                        <div class="aboutDocImage">
+                            <img src="assets/image/doctorPortfolio/aboutDoctor/novohealthdoctor.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-12">
+                        <div class="aboutDocDescription">
+                            <h2 class="cl-pm fw-bold mb-4">ডাক্তার সম্পর্কে</h2>
+                            <p>
+                                অ্যাসোসিয়েট প্রফেসর, হ্যাপাটোবিলিয়ারি, প্যানক্র্যাটিক ও লিভার ট্রান্সপ্লান্ট সার্জারি
+                                বিভাগ, বঙ্গবন্ধু শেখ মজিবুর রহমান মেডিকেল ইউনিভার্সিটি। তিনি তার লিভার ট্রান্সপ্লান্ট
+                                ফেলোশিপ ডিগ্রি নিয়েছেন Medanta The Medicity Hospital এবং ১০০টিরও বেশি লিভার
+                                ট্রান্সপ্লান্টে অংশ নিয়েছেন। তিনি জাপানের Mei University থেকে হ্যাপাটোবিলিয়ারি,
+                                প্যানক্রেটিক ও লিভার ট্রান্সপ্লান্ট সার্জারি বিষয়ে ট্রেনিং করেছেন। তিনি প্রথম বঙ্গবন্ধু
+                                শেখ মজিবুর রহমান বিশ্ববিদ্যালয়ে লিভার ট্রান্সপ্লান্ট শুরু করেছেন।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- chamber -->
+        <div class="chamber mb-5">
+            <div class="container">
+                <div class="chamberLocation mb-4">
+                    <h2 class="cl-lightgreen fw-bold mb-4">চেম্বার</h2>
+                    <p class="mb-0">আল-মানার হসপিটাল লিমিটেড, রুমঃ ৪০১</p>
+                    <p class="mb-0">সাতমসজিদ রোড, মোহাম্মদপুর, ঢাকা-১২০৭ (মোহাম্মদপুর নতুন থানার পাশে)</p>
+                    <p class="mb-0">ফোনঃ +৮৮০-২-৯১২১৩৮৭, ৯১২১৫৮৮,</p>
+                    <p class="mb-0">মোবাইলঃ ০১৫৫০ ০২০৮৭১</p>
+                    <p class="mb-0">রোগী দেখার সময়ঃ সন্ধ্যা ৬টা থেকে রাত ৮.৩০ পর্যন্ত (শুক্রবার বন্ধ)</p>
+                </div>
+                <div class="chamberPatient">
+                    <h4 class="cl-lightgreen mb-4">রোগী দেখার সময়ঃ</h4>
+                    <!-- <div class="shedule">
+                        <img src="assets/image/doctorPortfolio/chamber/schedule.png" alt="">
+                    </div> -->
+                    <div class="shedule">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="table-responsive">
+                                    <table class="table table-borderless  align-middle">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class=""></th>
+                                                <th scope="col" class=" text-white ">Morning</th>
+                                                <th scope="col" class=" text-white">Afternoon</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th class="text-white">M</th>
+                                                <td class=" text-white">07:00 - 12:00</td>
+                                                <td class=" text-white">02:00 - 06:00</td>
+                                            </tr>
+                                            <tr>
+                                                <th class=" text-white">T</th>
+                                                <td class=" text-white">07:00 - 12:00</td>
+                                                <td class=" text-white">- - - -</td>
+                                            </tr>
+                                            <tr>
+                                                <th class=" text-white">W</th>
+                                                <td class=" text-white">07:00 - 12:00</td>
+                                                <td class=" text-white"> 02:00 - 06:00</td>
+                                            </tr>
+                                            <tr>
+                                                <th class=" text-white">T</th>
+                                                <td class=" text-white">07:00 - 12:00</td>
+                                                <td class=" text-white">02:00 - 06:00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gallery -->
+        <div class="gallery ">
+            <div class="container text-center">
+                <h2 class="cl-pm fw-bold mb-5">গ্যালারী</h2>
+                <div class="mixItUpbtn mb-4">
+                    <button type="button" class="btn filter all mixitup-control-active" data-filter="all">সব</button>
+                    <button type="button" class="btn filter" data-filter=".cat-1">ক্যাটেগরি ১</button>
+                    <button type="button" class="btn filter" data-filter=".cat-2">ক্যাটেগরি ২</button>
+                    <button type="button" class="btn filter " data-filter=".cat-3">ক্যাটেগরি ৩</button>
+                    <!-- <button type="button" class="btn filter all mixitup-control-active" data-filter="all">সব</button> -->
+                </div>
+
+                <div class="row mixItUpContent">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-1" data-myorder="1">
+                        <img src="assets/image/doctorPortfolio/galery/cat1.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-2" data-myorder="1">
+                        <img src="assets/image/doctorPortfolio/galery/cat2.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-1" data-myorder="2">
+                        <img src="assets/image/doctorPortfolio/galery/cat3.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-3" data-myorder="4">
+                        <img src="assets/image/doctorPortfolio/galery/cat4.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-1" data-myorder="3">
+                        <img src="assets/image/doctorPortfolio/galery/cat5.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-2" data-myorder="2">
+                        <img src="assets/image/doctorPortfolio/galery/cat6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- video -->
+        <div class="video">
+            <div class="container">
+                <h2 class="cl-pm mb-4 text-center">ভিডিও গ্যালারী</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                        <div class="iframe">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dwOdU2Yl1Rc"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                        <div class="iframe">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AAsCQUdJApE"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                        <div class="iframe">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3I3l-x93kOY"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                        <div class="iframe">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dwOdU2Yl1Rc"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- publication -->
+        <div class="publication">
+            <div class="container">
+                <h2 class="cl-pm fw-bold text-center mb-5">পাবলিকেশন</h2>
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="publicationContent d-flex align-items-center">
+                            <div class="mx-3 d-flex justify-content-center align-items-center">
+                                <img src="assets/image/doctorPortfolio/portfolio/pdf.png" alt="">
+                            </div>
+                            <div class="">
+                                <h6 class="">An Evaluation of the Whipple’s Procedure: A Retrospective Study in Dhaka,
+                                    Bangladesh.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="publicationContent d-flex align-items-center">
+                            <div class="mx-3 d-flex justify-content-center align-items-center">
+                                <img src="assets/image/doctorPortfolio/portfolio/pdf.png" alt="">
+                            </div>
+                            <div class="">
+                                <h6 class="">Study of Chronic Calcific Pancreatitis: 30 Cases.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="publicationContent d-flex align-items-center">
+                            <div class="mx-3 d-flex justify-content-center align-items-center">
+                                <img src="assets/image/doctorPortfolio/portfolio/pdf.png" alt="">
+                            </div>
+                            <div class="">
+                                <h6 class="">Clinical Presentation and Complications of Chronic Calcific Pancreatitis.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="publicationContent d-flex align-items-center">
+                            <div class="mx-3 d-flex justify-content-center align-items-center">
+                                <img src="assets/image/doctorPortfolio/portfolio/pdf.png" alt="">
+                            </div>
+                            <div class="">
+                                <h6 class="">Effect of early and delay starting of enteral feeding in
+                                    post-pancreaticoduodenectomy patients.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="publicationContent d-flex align-items-center">
+                            <div class="mx-3 d-flex justify-content-center align-items-center">
+                                <img src="assets/image/doctorPortfolio/portfolio/pdf.png" alt="">
+                            </div>
+                            <div class="">
+                                <h6 class="">Tuberculosis of the Common Bile Duct: Rare Cause of Obstructive Jaundice.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="publicationContent d-flex align-items-center">
+                            <div class="mx-3 d-flex justify-content-center align-items-center">
+                                <img src="assets/image/doctorPortfolio/portfolio/pdf.png" alt="">
+                            </div>
+                            <div class="">
+                                <h6 class="">FASCIOLIASIS-AN UNCOMMON CAUSE OF RECURRENT CHOLANGITIS.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="publicationContent d-flex align-items-center">
+                            <div class="mx-3 d-flex justify-content-center align-items-center">
+                                <img src="assets/image/doctorPortfolio/portfolio/pdf.png" alt="">
+                            </div>
+                            <div class="">
+                                <h6 class="">Duct-to-mucosa PancreatojejunoStomy is a Safe Technique of Reconstruction
+                                    after Pancreatoduodenectomy.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="publicationContent d-flex align-items-center">
+                            <div class="mx-3 d-flex justify-content-center align-items-center">
+                                <img src="assets/image/doctorPortfolio/portfolio/pdf.png" alt="">
+                            </div>
+                            <div class="">
+                                <h6 class="">Solid-Pseudopapillary Tumor of the Pancreas: Our Experience in Bangladesh.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="publicationContent d-flex align-items-center">
+                            <div class="mx-3 d-flex justify-content-center align-items-center">
+                                <img src="assets/image/doctorPortfolio/portfolio/pdf.png" alt="">
+                            </div>
+                            <div class="">
+                                <h6 class="">A Case Report: Isolated Liver Tuberculosis.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- memberahip -->
+        <div class="membership">
+            <div class="container">
+                <h2 class="text-white text-center fw-bold mb-5">মেম্বারশিপ</h2>
+                <div id="owl-carousel" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="assets/image/doctorPortfolio/membership/certificate1.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/image/doctorPortfolio/membership/certificate2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/image/doctorPortfolio/membership/certificate3.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/image/doctorPortfolio/membership/certificate2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/image/doctorPortfolio/membership/certificate3.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/image/doctorPortfolio/membership/certificate1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact us -->
+        <div class="contactUs">
+            <div class="container">
+                <h2 class="cl-pm fw-bold text-center mb-4">যোগাযোগ</h2>
+                <form action="">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control border border-2 py-3" placeholder="আপনার নাম"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            </div>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control border border-2 py-3" placeholder="আপনার ইমেইল"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            </div>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="input-group mb-3">
+                                <input type="number" class="form-control border border-2 py-3" placeholder="আপনার ফোন"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            </div>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control border border-2 py-3" placeholder="বিষয়"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            </div>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="input-group border border-2 mb-5">
+                                <textarea name="" id="" cols="30" rows="10" class="w-100 border-0 p-3"
+                                    placeholder="আপনার বার্তা (যদি থাকে)"></textarea>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="bg-cl-pm border-0 color-white px-3 py-2 rounded-3">বার্তা
+                                পাঠান</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- subscribe -->
+        <div class="subscribe">
+            <div class="container">
+                <h2 class="cl-pm fw-bold text-center mb-3">সাবস্ক্রাইব করুন</h2>
+                <h5 class="cl-pm fw-bold text-center mb-5">আপনার ইমেইল সংক্রান্ত তথ্য আমাদের কাছে নিরাপদ থাকবে।</h5>
+                <form action="">
+                    <div class="input-group mb-3 subscribe-group w75 m-auto">
+                        <input type="text" class="form-control " placeholder="আপনার ইমেইল এড্রেস"
+                            aria-label="আপনার ইমেইল এড্রেস" aria-describedby="button-addon2">
+                        <button class="btn text-white bg-cl-pm px-5" type="submit" id="button-addon2"> সাবমিট</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- main footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footerContent d-flex flex-wrap justify-content-between">
+                    <div class="content1 mb-3">
+                        <div class="content1-image mb-4">
+                            <img src="assets/image/footer/footerLogo.png" alt="">
+                        </div>
+                        <div class="content1-content mb-4">
+                            <p class="text-white mb-0">আপনার স্বাস্থ্য সুরক্ষার সার্বিক দিক বিবেচনায় </p>
+                            <p class="text-white mb-0">নব-হেলথ লিমিটেড নিয়ে এসেছে বাংলাদেশের </p>
+                            <p class="text-white mb-0">সর্ববৃহৎ টেলি-মেডিসিন সেবা সবচেয়ে সাশ্রয়ী </p>
+                            <p class="text-white mb-0">মূল্যে।</p>
+                        </div>
+                        <div class="content1-bottom">
+                            <h6 class="text-white mb-4">আমাদের পেমেন্ট পার্টনার -</h6>
+                            <div class="bottom-image">
+                                <img src="assets/image/footer/paymentPartner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content2 mb-3">
+                        <h4 class="text-white mb-4">প্রয়োজনীয় লিঙ্ক</h4>
+                        <ul class="text-white">
+                            <li>হোম</li>
+                            <li>আমাদের সম্পর্কে জানুন</li>
+                            <li>সার্ভিস</li>
+                            <li>ব্যাবহারের শর্তাবলি</li>
+                            <li>গোপনীয়তা</li>
+                        </ul>
+                    </div>
+                    <div class="content3 mb-3">
+                        <h4 class="text-white mb-4">আমাদের সেবাসমুহ</h4>
+                        <ul class="text-white">
+                            <li>ফ্রী স্বাস্থ্যসেবা</li>
+                            <li>অনলাইন এপোয়েন্টমেন্ট</li>
+                            <li>ভিডিও কল সেবা</li>
+                            <li>স্বাস্থ্য জিজ্ঞাসা</li>
+                        </ul>
+                    </div>
+                    <div class="content4 mb-3">
+                        <h4 class="text-white mb-4">ঠিকানা</h4>
+                        <ul class="text-white mb-4">
+                            <li>ফোনঃ 09606 996655</li>
+                            <li>ইমেইলঃ info@nobohealth.com.bd</li>
+                        </ul>
+                        <h4 class="text-white mb-4">সাবস্ক্রাইব</h4>
+                        <form action="">
+                            <div class="input-group mb-3 subscribe-group">
+                                <input type="text" class="form-control " placeholder="আপনার ইমেইল এড্রেস"
+                                    aria-label="আপনার ইমেইল এড্রেস" aria-describedby="button-addon2">
+                                <button class="btn text-white bg-cl-pm px-3 bg-cl-green" type="submit"
+                                    id="button-addon2"><i class="fas fa-caret-right"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!----------Copy Right------------------->
+        <footer class="copyRight">
+            <div class="copyRightContent container d-flex justify-content-between align-items-center">
+                <div class="copyRightContentLeft w-50 cl-pm fw-bold fs12">
+                    &copy; কপিরাইট . সর্বসত্ত সংরক্ষিত।
+                    <br>
+                    Powered By নব হেলথ লিমিটেড
+                </div>
+                <div class="copyRightContentRight d-flex flex-wrap justify-content-center">
+                    <div class="icon me-3 mb-2">
+                        <a href="">
+                            <i class="fab fa-facebook-f "></i>
+                        </a>
+                    </div>
+                    <div class="icon me-3 mb-2">
+                        <a href="">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="icon me-3 mb-2">
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="icon me-3 mb-2">
+                        <a href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

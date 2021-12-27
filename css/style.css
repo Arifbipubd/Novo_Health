@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Baloo Da 2', cursive;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -13,7 +16,7 @@ a{
     color: #000;
   }
   a:hover{
-    color: #000;
+    color: #fff;
   }
   h1{
   font-size: 56px;
@@ -380,7 +383,7 @@ input[type=number]{
   /* Home top Banner*/
 
   .homeTopBanner{
-    height: 85vh;
+    padding: 230px 0;
     background-image: url(../assets/image/body/homeTopBanner.png);
     background-position: center;
     background-size: cover;
@@ -389,13 +392,9 @@ input[type=number]{
   .btn-2 button{
       border-radius: 100px;
   }
-  .homeTopBannerLeft{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
+  .btn-2 a{
+    border-radius: 100px;
+}
 
   /*Feature card*/
 
@@ -606,7 +605,7 @@ input[type=number]{
   /*Registration*/
 
   .registration{
-    height: 100%;
+    min-height: 100vh;
   }
 
   .regLeftList ul li{
@@ -629,6 +628,12 @@ input[type=number]{
     .offerCard2Heading{
       background-color: #F4F9FF !important;
     }
+    .doctorTopContent{
+      flex-direction: column;
+    }
+    .homeTopBannerLeft h3, .homeTopBannerLeft h4, .homeTopBannerLeft small{
+      color: rgb(32, 28, 28) !important;
+    }
   }
   @media(max-width:700px){
     .mapContent{
@@ -645,4 +650,367 @@ input[type=number]{
     .downloadAppLeftIcon1{
       margin-right: 0!important;
     }
+    .subidaText{
+      padding: 0 1rem !important;
+    }
   }
+
+
+
+
+  
+/* Doctor Portfolio */
+
+
+/* used predifine class */
+/* cl-pm */
+/* bg-cl-pm */
+/* h2 */
+/* h6 */
+.fs12 {
+  font-size: 12px;
+}
+.mb5 {
+  margin-bottom: 48px;
+}
+.w75 {
+  width: 75%;
+}
+.cl-lightgreen{
+  color: #16D8B1;
+}
+/* about start */
+.doctorPortfolio .about {
+  background-image: url(../assets/image/doctorPortfolio/about/nobohealthAboutBg.png);
+  background-position: center;
+  background-size: cover;
+  padding: 130px 0;
+}
+.doctorPortfolio .about .aboutImage {
+  margin: auto;
+  height: 335px;
+}
+.doctorPortfolio .about .aboutImage img{
+  width: 100%;
+  height: 100%;
+}
+.doctorPortfolio .about .aboutDescription,.description,.aboutDocDescription,.chamber p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #9BA1B1;
+}
+.doctorPortfolio .about .aboutBtn .btn{
+  width: 146px;
+  height: 50px;
+  border-radius: 100px;
+  box-shadow: none;
+}
+@media (min-width: 100px) and (max-width: 992px){
+  .doctorPortfolio .about .aboutImage .mobile {
+    display: block !important;
+  }
+  .doctorPortfolio .about .aboutImage .desktop {
+    display: none;
+  }
+  .doctorPortfolio .about .mb5 {
+    margin-bottom: 16px;
+  }
+}
+/* about end */
+
+/* experience start */
+.doctorPortfolio .experience {
+  background-image: url(../assets/image/doctorPortfolio/experience/nobohealthExperience.png);
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+}
+/* experience end */
+
+/* about doctor start */
+.doctorPortfolio .aboutDoctor {
+  background-image: url(../assets/image/doctorPortfolio/aboutDoctor/nobohealthAboutdocBg.png);
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+}
+.doctorPortfolio .aboutDoctor .aboutDocImage{
+  width: 304px;
+  height: 210px;
+  margin: auto;
+}
+.doctorPortfolio .aboutDoctor .aboutDocImage img{
+  width: 100%;
+  height: 100%;
+}
+/* about doctor end */
+
+/* chamber start */
+.doctorPortfolio .chamber {
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0;
+}
+@media (min-width: 1000px) and (max-width: 4000px){
+  .doctorPortfolio .chamber {
+    background-image: url(../assets/image/doctorPortfolio/chamber/chamber.png);
+  }
+}
+@media (min-width: 100px) and (max-width: 1000px){
+  .doctorPortfolio .chamber {
+    background : #013988;
+  }
+}
+.doctorPortfolio .chamber p {
+  color: white !important;
+}
+/* chamber end */
+
+/* gallery start */
+.doctorPortfolio .gallery {
+  background-image: url(../assets/image/doctorPortfolio/galery/galleryBg.png);
+  background-position: center;
+  background-size: cover;
+  /* height: 900px; */
+  padding: 80px 0;
+}
+.mixItUpbtn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ .mixItUpbtn .btn{
+   height: 40px;
+   color: #013988;
+   font-weight: 600;
+   border-radius: 5px;
+   box-shadow: none;
+   letter-spacing: 1px;
+   margin: 10px 10px 10px 0px;
+   padding: 10px 25px;
+ }
+ 
+.mixItUpbtn button.mixitup-control-active{
+  background-color: #013988;
+  color: white;
+  cursor:pointer;
+}
+.doctorPortfolio .gallery .mixItUpContent .mix {
+  /* width: 365px; */
+  /* width: 30.33%;
+  height: 245px;
+  margin: 15px; */
+  height: 250px;
+}
+.doctorPortfolio .gallery .mixItUpContent .mix img{
+  width: 100%;
+  height: 100%;
+}
+/* gallery end */
+
+/* video start */
+.doctorPortfolio .video {
+  padding: 100px 0;
+}
+.doctorPortfolio .video .iframe {
+	border-radius:10px;
+  overflow: hidden;
+  height: 250px;
+  /* width: fit-content; */
+  display: flex;
+  /* height: fit-content; */
+}
+/* video end */
+
+/* publication start */
+.doctorPortfolio .publication{
+  background-image: url(../assets/image/doctorPortfolio/galery/galleryBg.png);
+  background-position: center;
+  background-size: cover;
+  /* height: 900px; */
+  padding: 100px 0;
+}
+.doctorPortfolio .publication .publicationContent {
+  height: 100px;
+  color: #013988;
+  background-color: white;
+  box-shadow: 0px 3px 10px #e9edf3;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .8s ease;
+}
+.doctorPortfolio .publication .publicationContent:hover{
+  background-color: #013988 !important;
+  color: white !important;
+}
+/* publication end */
+
+/* membership start*/
+.doctorPortfolio .membership{
+  background-image: url(../assets/image/doctorPortfolio/membership/membershipBg.png);
+  background-position: center;
+  background-size: cover;
+  /* height: 900px; */
+  padding: 100px 0;
+}
+.item {
+  align-items: center;
+  color: white;
+  display: flex;
+  /* width: 365px; */
+  height: 190px;
+  justify-content: center;
+}
+.item img{
+  width: 100%;
+  height: 100%;
+}
+.owl-dots{
+  /* margin-left: 500px; */
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.doctorPortfolio .membership .owl-dot{
+  height: 9px;
+  width: 9px;
+  border-radius: 50% !important;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 10px;
+  background: #7888a1 !important;
+  transition: all 0.3s ease;
+}
+.doctorPortfolio .membership .owl-dot.active,
+.owl-dot:hover{
+  background-color: white !important;
+}
+
+/* membership end*/
+
+/* contact us start */
+.doctorPortfolio .contactUs{
+  padding: 100px 0;
+}
+.doctorPortfolio .contactUs input:focus , textarea:focus{
+    outline: 2px solid #013988;
+    box-shadow: none;
+}
+/* contact us end */
+
+/* subscribe start */
+.doctorPortfolio .subscribe{
+  padding: 100px 0;
+  background: #F4F9FF;
+}
+.doctorPortfolio .subscribe .subscribe-group input{
+  height: 60px;
+  border: 1px solid #013988;
+  outline: none;
+  background-color: #ffff;
+  border-radius: 10px;
+  /* color: #ffff; */
+  border-radius:40px;
+}
+.doctorPortfolio .subscribe .subscribe-group button{
+  font-weight: 500;
+  border: none;
+  border-radius:40px;
+  height: 60px;
+}
+.doctorPortfolio .subscribe-group input:focus{
+  box-shadow: none;
+}
+.doctorPortfolio .subscribe .subscribe-group button:focus{
+  box-shadow: none;
+}
+@media (min-width: 100px) and (max-width: 500px){
+  .w75 {
+    width: 98%;
+  }
+}
+/* subscribe end */
+
+/* footer start */
+.doctorPortfolio .footer {
+  background-color: #013988;
+  padding: 50px 0;
+}
+
+.doctorPortfolio .footer .content1 .content1-image{
+  width: 156px;
+  height: 37px;
+}
+.doctorPortfolio .footer .content1 .content1-image img{
+  width: 100%;
+  height: 100%;
+}
+.doctorPortfolio .footer .content1 .content1-bottom .bottom-image{
+  width: 100px;
+  height: 50px;
+}
+.doctorPortfolio .footer .content1 .content1-bottom .bottom-image{
+  width: 100%;
+  height: 100%;
+}
+.doctorPortfolio .footer .footerContent li{
+  line-height: 30px;
+}
+.doctorPortfolio .footer .footerContent li::marker{
+  color: #16D8B1;
+}
+@media (min-width: 300px) and (max-width: 992px){
+  .doctorPortfolio .footer .footerContent{
+    flex-direction: column;
+    /* padding-left: 10px; */
+  }
+}
+
+@media(max-width:576px){
+  .copyRightContent{
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+}
+
+.doctorPortfolio .copyRight {
+  background: #F4F9FF;
+  padding: 15px 0;
+}
+.copyRightContentRight .icon {
+  height: 45px;
+  width: 45px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #013988;
+  color: white;
+}
+.copyRightContentRight .icon i{
+  font-size: 18px;
+    line-height: 45px;
+    color: white;
+}
+
+/* footer end */
+
+
+
+.doctorPortfolio .doctor .owl-dot{
+  height: 9px;
+  width: 9px;
+  border-radius: 50% !important;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 10px;
+  /* background: #7888a1 !important; */
+  background: #16D8B1 !important;
+  transition: all 0.3s ease;
+}
+.doctorPortfolio .doctor .owl-dot.active,
+.owl-dot:hover{
+  background-color: black !important;
+}
