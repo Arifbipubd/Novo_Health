@@ -138,7 +138,7 @@
             </div>
         </div>
 
-        <div class="homeFeature my-5" id="homeFeature">
+        <div class="homeFeature pcPadding my-5" id="homeFeature">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-2">
@@ -671,7 +671,7 @@
             </div>
         </div>
 
-        <div class="appointment bg-cl-pm py-5" id="appointment">
+        <div class="appointment pcPadding bg-cl-pm py-5" id="appointment">
             <div class="container">
                 <div class="color-white fw-bold px-3 py-5 text-center">
                     <h2>এপয়েন্টমেন্ট</h2>
@@ -743,7 +743,7 @@
             </div>
         </div>
 
-        <div class="FaqQuestion bg-cl-grey2 py-5" id="FaqQuestion">
+        <div class="FaqQuestion pcPadding bg-cl-grey2 py-5" id="FaqQuestion">
             <div class="container py-5">
                 <div class="row align-items-center">
                     <div class="col-xl-6">
@@ -948,7 +948,7 @@
             </div>
         </div>
 
-        <div class="downloadApp bg-cl-pm py-5" id="downloadApp">
+        <div class="downloadApp pcPadding bg-cl-pm py-5" id="downloadApp">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-6">
@@ -995,17 +995,19 @@
         </div>
 
         <div class="map bg-cl-green" id="map">
-            <div class="mapContent d-flex">
-                <div class="mapLeft px-5 d-flex flex-column justify-content-center align-items-center color-white">
-                    <div class="mb-3">
-                        <h3>যোগাযোগ করুন</h3>
-                    </div>
-                    <div>
-                        <small>আমাদের সেবা নিয়ে কোন জিজ্ঞাসা কিংবা কোন পরামর্শ থাকলে আমাদের মেইল <br> করতে পারেন অথবা
-                            সরাসরি
-                            ফোন করতে পারেন আমাদের হটলাইন নাম্বারে। <br> সেবা গ্রহিতাদের সকল প্রকার পরামর্শ এবং মতামতকে
-                            নব
-                            হেলথ লিমিটেড <br> সর্বোচ্চ গুরুত্বের সাথে দেখে।</small>
+            <div class="mapContent d-flex justify-content-end align-items-center">
+                <div class="mapLeft d-flex">
+                    <div class="container px-5 color-white">
+                        <div class="mb-3">
+                            <h3>যোগাযোগ করুন</h3>
+                        </div>
+                        <div>
+                            <small>আমাদের সেবা নিয়ে কোন জিজ্ঞাসা কিংবা কোন পরামর্শ থাকলে আমাদের মেইল <br> করতে পারেন অথবা
+                                সরাসরি
+                                ফোন করতে পারেন আমাদের হটলাইন নাম্বারে। <br> সেবা গ্রহিতাদের সকল প্রকার পরামর্শ এবং মতামতকে
+                                নব
+                                হেলথ লিমিটেড <br> সর্বোচ্চ গুরুত্বের সাথে দেখে।</small>
+                        </div>
                     </div>
                 </div>
                 <div class="mapRight">
@@ -1034,7 +1036,7 @@
             </div>
         </div>
 
-        <div class="contact bg-cl-grey2 py-5" id="contact">
+        <div class="contact pcPadding bg-cl-grey2 py-5" id="contact">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-10">
@@ -1227,11 +1229,11 @@
 
                 questions.forEach(function (item) {
                     if (item !== question) {
-                        item.classList.remove("mocktestShow-text");
+                        item.classList.remove("Show-text");
                     }
                 });
 
-                question.classList.toggle("mocktestShow-text");
+                question.classList.toggle("Show-text");
             });
         });
     </script>

@@ -1,12 +1,15 @@
+
+@font-face {
+  font-family: Font;
+  src: url(../assets/font/font.ttf);
+}
+
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Baloo Da 2', cursive;
-    font-family: 'Hind Siliguri', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family:Font;
 }
-
 
 /**************************************
 ===== h1,h2,h3,h4,h5,h6 font size  ====
@@ -533,28 +536,23 @@ input[type=number]{
 
   /*Question*/
 
-  .question-text{
-    display: none;
-  }
-
   .question-text {
     display: none;
+    border-radius: 0 0 10px 10px;
   }
-  .mocktestShow-text .question-text {
+  .Show-text .question-text {
     display: block;
   }
   .minus-icon {
     display: none;
   }
-  .mocktestShow-text .minus-icon {
+  .Show-text .minus-icon {
     display: inline;
   }
-  .mocktestShow-text .plus-icon {
+  .Show-text .plus-icon {
     display: none;
   }
-  .question-text{
-    border-radius: 0 0 10px 10px;
-  }
+
 
 
   /*Download App*/
@@ -568,6 +566,7 @@ input[type=number]{
 
   .mapLeft{
     flex-basis: 50%;
+    padding: 0 0 0 15%;
   }
   .mapRight{
     flex-basis: 50%;
@@ -756,6 +755,13 @@ input[type=number]{
   .doctorPortfolio .chamber {
     background-image: url(../assets/image/doctorPortfolio/chamber/chamber.png);
   }
+
+  /*Padding fOR pC*/
+
+  .pcPadding{
+    padding: 150px 0 !important;
+  }
+
 }
 @media (min-width: 100px) and (max-width: 1000px){
   .doctorPortfolio .chamber {
