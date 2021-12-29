@@ -970,7 +970,7 @@ textarea:focus {
 @media (max-width: 576px) {
   .copyRightContent {
     flex-direction: column;
-    align-items: flex-start !important;
+    align-items: center !important;
   }
 }
 
