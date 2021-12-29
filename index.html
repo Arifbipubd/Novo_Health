@@ -1,1243 +1,1874 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NoVo Health</title>
-    <link rel="icon" href="assets/image/header/fav.png" type="image/icon">
+    <link rel="icon" href="assets/image/header/fav.png" type="image/icon" />
 
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!-- fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-----Bootstrap Bundle-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
 
     <!-- Owl Carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
     <!-----Owl Carousal-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- header start -->
     <section class="desktopVersion">
-        <div class="topHeader bg-cl-pm">
-            <div class="container">
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="d-flex flex-wrap align-items-center">
-                        <div class="mx-2">
-                            <small class="fw-lighter"><i class="far fa-envelope me-2"></i>info@nobohealth.com.bd</small>
-                        </div>
-                        <div class="mx-2">
-                            <small class="fw-lighter"><i
-                                    class="fas fa-phone-alt me-2"></i>info@nobohealth.com.bd</small>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="mx-2 languageChange">
-                            <div class="change">
-                                <input id="engtoggle" class="engtoggle engtoggle-round-flat" type="checkbox">
-                                <label for="engtoggle"></label>
-                                <span class="off">En</span>
-                                <span class="on">Bn</span>
-                            </div>
-                        </div>
-                    </div>
+      <div class="topHeader bg-cl-pm">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex flex-wrap align-items-center">
+              <div class="mx-2">
+                <small class="fw-lighter"
+                  ><i class="far fa-envelope me-2"></i
+                  >info@nobohealth.com.bd</small
+                >
+              </div>
+              <div class="mx-2">
+                <small class="fw-lighter"
+                  ><i class="fas fa-phone-alt me-2"></i
+                  >info@nobohealth.com.bd</small
+                >
+              </div>
+            </div>
+            <div class="">
+              <div class="mx-2 languageChange">
+                <div class="change">
+                  <input
+                    id="engtoggle"
+                    class="engtoggle engtoggle-round-flat"
+                    type="checkbox"
+                  />
+                  <label for="engtoggle"></label>
+                  <span class="off">En</span>
+                  <span class="on">Bn</span>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Bottom Header-->
-        <div class="bottomHeader">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light ">
-                    <div class="container-fluid px-0 py-2">
-                        <div class="bottomHeader-img cursor">
-                            <img src="assets/image/header/logo.png" alt="" onclick="window.location.href='index.html'">
-                        </div>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse " id="navbarNav">
-                            <ul class="navbar-nav ms-auto">
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link fw-bold" href="#homeTopBanner">হোম</a>
-                                </li>
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link fw-bold" href="#doctor">ডাক্তার</a>
-                                </li>
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link fw-bold" href="#gallery">গ্যালারী</a>
-                                </li>
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link fw-bold" href="#offer">অফারসমুহ</a>
-                                </li>
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link fw-bold" href="#subida">সুবিধাসমুহ</a>
-                                </li>
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link fw-bold" href="#appointment">অ্যাপয়েন্টমেন্ট</a>
-                                </li>
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link fw-bold" href="#contact">যোগাযোগ</a>
-                                </li>
-                                <li class="nav-item ms-5">
-                                    <a class="btn bg-cl-green border-0 px-3 text-white rounded-3" href="#downloadApp" role="button">অ্যাপ ডাউনলোড</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+      </div>
+      <!-- Bottom Header-->
+      <div class="bottomHeader">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid px-0 py-2">
+              <div class="bottomHeader-img cursor">
+                <img
+                  src="assets/image/header/logo.png"
+                  alt=""
+                  onclick="window.location.href='index.html'"
+                />
+              </div>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="#homeTopBanner">হোম</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="#doctor">ডাক্তার</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="#gallery">গ্যালারী</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="#offer">অফারসমুহ</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="#subida">সুবিধাসমুহ</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="#appointment"
+                      >অ্যাপয়েন্টমেন্ট</a
+                    >
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="#contact">যোগাযোগ</a>
+                  </li>
+                  <li class="nav-item ms-5">
+                    <a
+                      class="btn bg-cl-green border-0 px-3 text-white rounded-3"
+                      href="#downloadApp"
+                      role="button"
+                      >অ্যাপ ডাউনলোড</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
+          </nav>
         </div>
+      </div>
     </section>
     <!-- header end -->
 
     <section class="doctorPortfolio">
-
-        <div class="homeTopBanner" id="homeTopBanner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="homeTopBannerLeft color-white">
-                            <div class="mb-4">
-                                <h1>নব হেলথ লিমিটেড</h1>
-                            </div>
-                            <div class="mb-4">
-                                <h3>স্বাস্থ্য-সেবায় আপনার পাশে</h3>
-                            </div>
-                            <div class="mb-4">
-                                <small>নব হেলথ টেলিমেডিসিন সেবা প্রদানের প্লাটফর্ম যেখানে অভিজ্ঞ চিকিৎসকদের একটি টিম
-                                    ২৪/৭
-                                    ভিডিও <br> কনফারেন্সিং এর মাধ্যমে স্বাস্থ্য সেবা প্রদান করে থাকেন।</small>
-                            </div>
-                            <div class="mb-4">
-                                <h4>হটলাইনঃ ০৯৬০৬ ৯৯৬৬৫৫</h4>
-                            </div>
-                            <div class="btn-2">
-                                <a class="bg-cl-pm border-0 color-white px-3 py-3" href="#downloadApp" role="button">অ্যাপ ডাউনলোড</a>
-                            </div>
-                        </div>
-                    </div>
+      <div class="homeTopBanner" id="homeTopBanner">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="homeTopBannerLeft color-white">
+                <div class="mb-4">
+                  <h1>নব হেলথ লিমিটেড</h1>
                 </div>
-            </div>
-        </div>
-
-        <div class="homeFeature pcPadding my-5" id="homeFeature">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-2">
-                        <div
-                            class="featureCard cursor d-flex flex-column justify-content-center align-items-center px-4 py-5">
-                            <div class="featureCardIcon d-flex justify-content-center align-items-center mb-4">
-                                <i class="fas fa-stethoscope cl-pm"></i>
-                            </div>
-                            <div>
-                                <h4 class="cl-pm fw-bold mb-4">অনলাইন ডাক্তার</h4>
-                            </div>
-                            <div class="text-center color-grey">
-                                <small>হাতের নাগালের ইন্টারনেট সেবাকে কাজে লাগিয়ে লুফে নিন আমাদের অনলাইন স্বাস্থ্যসেবা।
-                                    সরাসরি কথা বলুন আমাদের অভিজ্ঞ সব স্পেশালিস্টদের সাথে।</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-2">
-                        <div
-                            class="featureCard cursor d-flex flex-column justify-content-center align-items-center px-4 py-5">
-                            <div class="featureCardIcon d-flex justify-content-center align-items-center mb-4">
-                                <i class="fas fa-stethoscope cl-pm"></i>
-                            </div>
-                            <div>
-                                <h4 class="cl-pm fw-bold mb-4">অনলাইন ডাক্তার</h4>
-                            </div>
-                            <div class="text-center color-grey">
-                                <small>হাতের নাগালের ইন্টারনেট সেবাকে কাজে লাগিয়ে লুফে নিন আমাদের অনলাইন স্বাস্থ্যসেবা।
-                                    সরাসরি কথা বলুন আমাদের অভিজ্ঞ সব স্পেশালিস্টদের সাথে।</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-2">
-                        <div
-                            class="featureCard cursor d-flex flex-column justify-content-center align-items-center px-4 py-5">
-                            <div class="featureCardIcon d-flex justify-content-center align-items-center mb-4">
-                                <i class="fas fa-stethoscope cl-pm"></i>
-                            </div>
-                            <div>
-                                <h4 class="cl-pm fw-bold mb-4">অনলাইন ডাক্তার</h4>
-                            </div>
-                            <div class="text-center color-grey">
-                                <small>হাতের নাগালের ইন্টারনেট সেবাকে কাজে লাগিয়ে লুফে নিন আমাদের অনলাইন স্বাস্থ্যসেবা।
-                                    সরাসরি কথা বলুন আমাদের অভিজ্ঞ সব স্পেশালিস্টদের সাথে।</small>
-                            </div>
-                        </div>
-                    </div>
+                <div class="mb-4">
+                  <h3>স্বাস্থ্য-সেবায় আপনার পাশে</h3>
                 </div>
-            </div>
-        </div>
-
-        <div class="porishongkhan my-5 py-5" id="porishongkhan">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-12 col-12">
-                        <div class="porishongkhanLeft color-white my-5">
-                            <div>
-                                <h2>পরিসংখ্যান</h2>
-                            </div>
-                            <div>
-                                <small>নব হেলথ স্বাস্থ্য সেবা নিশ্চিতকরণে সেবা গ্রহীতাদের সর্বোচ্চ আস্থা অর্জনে সক্ষম
-                                    হয়েছে।
-                                    <br>
-                                    সেবার মান এবং গ্রাহকদের দেয়া প্রতিশ্রুতি অক্ষুন্ন রেখে নব হেলথ প্রতিনিয়তই উন্মোচন
-                                    <br>
-                                    করে চলেছে
-                                    নিত্য নতুন সম্ভাবনার দুয়ার।</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-12 col-12">
-                        <div class="porishongkhanRight color-white">
-                            <div class="d-flex justify-content-around my-5">
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <div class="porishonkhanimg mb-2">
-                                        <img src="assets/image/body/doctor.png" alt="">
-                                    </div>
-                                    <div>
-                                        <h2>15</h2>
-                                    </div>
-                                    <div>
-                                        <h4 class="fs20">ডাক্তার</h4>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <div class="porishonkhanimg mb-2">
-                                        <img src="assets/image/body/ptn.png" alt="">
-                                    </div>
-                                    <div>
-                                        <h2>500</h2>
-                                    </div>
-                                    <div>
-                                        <h4 class="fs20">রোগী</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-around mb-5">
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <div class="porishonkhanimg mb-2">
-                                        <img src="assets/image/body/research.png" alt="">
-                                    </div>
-                                    <div>
-                                        <h2>04</h2>
-                                    </div>
-                                    <div>
-                                        <h4 class="fs20">রিসার্চ ল্যাব</h4>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <div class="porishonkhanimg mb-2">
-                                        <img src="assets/image/body/award.png" alt="">
-                                    </div>
-                                    <div>
-                                        <h2>150</h2>
-                                    </div>
-                                    <div>
-                                        <h4 class="fs20">অ্যাওয়ার্ড</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="mb-4">
+                  <small class="fw-lighter"
+                    >নব হেলথ টেলিমেডিসিন সেবা প্রদানের প্লাটফর্ম যেখানে অভিজ্ঞ
+                    চিকিৎসকদের একটি টিম ২৪/৭ ভিডিও <br />
+                    কনফারেন্সিং এর মাধ্যমে স্বাস্থ্য সেবা প্রদান করে
+                    থাকেন।</small
+                  >
                 </div>
+                <div class="mb-4">
+                  <h4>হটলাইনঃ ০৯৬০৬ ৯৯৬৬৫৫</h4>
+                </div>
+                <div class="btn-2">
+                  <a
+                    class="bg-cl-pm border-0 color-white px-3 py-3"
+                    href="#downloadApp"
+                    role="button"
+                    >অ্যাপ ডাউনলোড</a
+                  >
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="doctor mb-5" id="doctor">
-            <div class="container">
-                <div class="doctorTop">
+      <div class="homeFeature pcPadding my-5" id="homeFeature">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-2">
+              <div
+                class="
+                  featureCard
+                  cursor
+                  d-flex
+                  flex-column
+                  justify-content-center
+                  align-items-center
+                  px-4
+                  py-5
+                "
+              >
+                <div
+                  class="
+                    featureCardIcon
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    mb-4
+                  "
+                >
+                  <i class="fas fa-stethoscope cl-pm"></i>
+                </div>
+                <div>
+                  <h4 class="cl-pm fw-bold mb-4">অনলাইন ডাক্তার</h4>
+                </div>
+                <div class="text-center color-grey">
+                  <small
+                    >হাতের নাগালের ইন্টারনেট সেবাকে কাজে লাগিয়ে লুফে নিন আমাদের
+                    অনলাইন স্বাস্থ্যসেবা। সরাসরি কথা বলুন আমাদের অভিজ্ঞ সব
+                    স্পেশালিস্টদের সাথে।</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-2">
+              <div
+                class="
+                  featureCard
+                  cursor
+                  d-flex
+                  flex-column
+                  justify-content-center
+                  align-items-center
+                  px-4
+                  py-5
+                "
+              >
+                <div
+                  class="
+                    featureCardIcon
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    mb-4
+                  "
+                >
+                  <i class="fas fa-stethoscope cl-pm"></i>
+                </div>
+                <div>
+                  <h4 class="cl-pm fw-bold mb-4">অনলাইন ডাক্তার</h4>
+                </div>
+                <div class="text-center color-grey">
+                  <small
+                    >হাতের নাগালের ইন্টারনেট সেবাকে কাজে লাগিয়ে লুফে নিন আমাদের
+                    অনলাইন স্বাস্থ্যসেবা। সরাসরি কথা বলুন আমাদের অভিজ্ঞ সব
+                    স্পেশালিস্টদের সাথে।</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-2">
+              <div
+                class="
+                  featureCard
+                  cursor
+                  d-flex
+                  flex-column
+                  justify-content-center
+                  align-items-center
+                  px-4
+                  py-5
+                "
+              >
+                <div
+                  class="
+                    featureCardIcon
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    mb-4
+                  "
+                >
+                  <i class="fas fa-stethoscope cl-pm"></i>
+                </div>
+                <div>
+                  <h4 class="cl-pm fw-bold mb-4">অনলাইন ডাক্তার</h4>
+                </div>
+                <div class="text-center color-grey">
+                  <small
+                    >হাতের নাগালের ইন্টারনেট সেবাকে কাজে লাগিয়ে লুফে নিন আমাদের
+                    অনলাইন স্বাস্থ্যসেবা। সরাসরি কথা বলুন আমাদের অভিজ্ঞ সব
+                    স্পেশালিস্টদের সাথে।</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="porishongkhan my-5 py-5" id="porishongkhan">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-12 col-12">
+              <div class="porishongkhanLeft color-white my-5">
+                <div>
+                  <h2>পরিসংখ্যান</h2>
+                </div>
+                <div>
+                  <small
+                    >নব হেলথ স্বাস্থ্য সেবা নিশ্চিতকরণে সেবা গ্রহীতাদের সর্বোচ্চ
+                    আস্থা অর্জনে সক্ষম হয়েছে।
+                    <br />
+                    সেবার মান এবং গ্রাহকদের দেয়া প্রতিশ্রুতি অক্ষুন্ন রেখে নব
+                    হেলথ প্রতিনিয়তই উন্মোচন
+                    <br />
+                    করে চলেছে নিত্য নতুন সম্ভাবনার দুয়ার।</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-12 col-12">
+              <div class="porishongkhanRight color-white">
+                <div class="d-flex justify-content-around my-5">
+                  <div
+                    class="
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <div class="porishonkhanimg mb-2">
+                      <img src="assets/image/body/doctor.png" alt="" />
+                    </div>
                     <div>
-                        <h2 class="fw-bold cl-pm mb-3">ডাক্তার</h2>
+                      <h2>15</h2>
                     </div>
-                    <div class="doctorTopContent d-flex justify-content-between">
-                        <div class="mb-4">
-                            <small class="color-grey">আমাদের ডাক্তারেরা প্রত্যেকেই অভিজ্ঞ এবং সেবা-গ্রহিতার প্রতি
-                                অত্যন্ত
-                                আন্তরিক। আপনি বিনা <br> সংকোচে আপনার সমস্যার কথা ডাক্তারকে খুলে বলতে পারবেন এবং ডাক্তার
-                                কর্তৃক দ্রুত <br> কার্যকরী পরামর্শ পাবেন বলে আমাদের দৃঢ় বিশ্বাস।</small>
-                        </div>
-                        <div class="btn-2 mb-2">
-                            <button type="button" class="bg-cl-green border-0 color-white px-3 py-3">আরো ডাক্তার
-                                দেখুন</button>
-                        </div>
+                    <div>
+                      <h4 class="fs20">ডাক্তার</h4>
                     </div>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <div class="porishonkhanimg mb-2">
+                      <img src="assets/image/body/ptn.png" alt="" />
+                    </div>
+                    <div>
+                      <h2>500</h2>
+                    </div>
+                    <div>
+                      <h4 class="fs20">রোগী</h4>
+                    </div>
+                  </div>
                 </div>
-                <div class="doctorBottom">
-                    <div id="owl-carousel" class="owl-carousel owl-theme">
-                        <div class="col-12">
-                            <div class="doctorCard d-flex flex-column justify-content-center align-items-center p-5"
-                                onclick="location.href='doctorPortfolio.html'">
-                                <div class="doctorImg mb-3">
-                                    <img src="assets/image/teacher/teacher.jpg" alt="">
-                                </div>
-                                <div class="doctorName text-center mb-3">
-                                    <h4 class="fs20 cl-pm fw-bold">ডাঃ সাইফ উদ্দিন</h4>
-                                    <h5 class="color-grey">এ্যাসোসিয়েট প্রফেসর</h5>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-2">
-                                    <small>বঙ্গবন্ধু শেখ মজিবুর রহমান মেডিকেল বিশ্ববিদ্যালয়, ঢাকা।</small>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-2">
-                                    <small>ডিগ্রীঃ MBBS, FCPS, MS</small>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-3">
-                                    <small>রোগী দেখার সময়ঃ সকাল ১০টা - দুপুর ১টা</small>
-                                </div>
-                                <div class="btn-2 doctorBtn">
-                                    <button type="button"
-                                        class="bg-cl-pm border-0 color-white px-5 py-2">প্রোফাইল</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="doctorCard d-flex flex-column justify-content-center align-items-center p-5"
-                                onclick="location.href='doctorPortfolio.html'">
-                                <div class="doctorImg mb-3">
-                                    <img src="assets/image/teacher/teacher.jpg" alt="">
-                                </div>
-                                <div class="doctorName text-center mb-3">
-                                    <h4 class="fs20 cl-pm fw-bold">ডাঃ সাইফ উদ্দিন</h4>
-                                    <h5 class="color-grey">এ্যাসোসিয়েট প্রফেসর</h5>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-2">
-                                    <small>বঙ্গবন্ধু শেখ মজিবুর রহমান মেডিকেল বিশ্ববিদ্যালয়, ঢাকা।</small>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-2">
-                                    <small>ডিগ্রীঃ MBBS, FCPS, MS</small>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-3">
-                                    <small>রোগী দেখার সময়ঃ সকাল ১০টা - দুপুর ১টা</small>
-                                </div>
-                                <div class="btn-2 doctorBtn">
-                                    <button type="button"
-                                        class="bg-cl-pm border-0 color-white px-5 py-2">প্রোফাইল</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="doctorCard d-flex flex-column justify-content-center align-items-center p-5"
-                                onclick="location.href='doctorPortfolio.html'">
-                                <div class="doctorImg mb-3">
-                                    <img src="assets/image/teacher/teacher.jpg" alt="">
-                                </div>
-                                <div class="doctorName text-center mb-3">
-                                    <h4 class="fs20 cl-pm fw-bold">ডাঃ সাইফ উদ্দিন</h4>
-                                    <h5 class="color-grey">এ্যাসোসিয়েট প্রফেসর</h5>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-2">
-                                    <small>বঙ্গবন্ধু শেখ মজিবুর রহমান মেডিকেল বিশ্ববিদ্যালয়, ঢাকা।</small>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-2">
-                                    <small>ডিগ্রীঃ MBBS, FCPS, MS</small>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-3">
-                                    <small>রোগী দেখার সময়ঃ সকাল ১০টা - দুপুর ১টা</small>
-                                </div>
-                                <div class="btn-2 doctorBtn">
-                                    <button type="button"
-                                        class="bg-cl-pm border-0 color-white px-5 py-2">প্রোফাইল</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="doctorCard d-flex flex-column justify-content-center align-items-center p-5"
-                                onclick="location.href='doctorPortfolio.html'">
-                                <div class="doctorImg mb-3">
-                                    <img src="assets/image/teacher/teacher.jpg" alt="">
-                                </div>
-                                <div class="doctorName text-center mb-3">
-                                    <h4 class="fs20 cl-pm fw-bold">ডাঃ সাইফ উদ্দিন</h4>
-                                    <h5 class="color-grey">এ্যাসোসিয়েট প্রফেসর</h5>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-2">
-                                    <small>বঙ্গবন্ধু শেখ মজিবুর রহমান মেডিকেল বিশ্ববিদ্যালয়, ঢাকা।</small>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-2">
-                                    <small>ডিগ্রীঃ MBBS, FCPS, MS</small>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-3">
-                                    <small>রোগী দেখার সময়ঃ সকাল ১০টা - দুপুর ১টা</small>
-                                </div>
-                                <div class="btn-2 doctorBtn">
-                                    <button type="button"
-                                        class="bg-cl-pm border-0 color-white px-5 py-2">প্রোফাইল</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="doctorCard d-flex flex-column justify-content-center align-items-center p-5"
-                                onclick="location.href='doctorPortfolio.html'">
-                                <div class="doctorImg mb-3">
-                                    <img src="assets/image/teacher/teacher.jpg" alt="">
-                                </div>
-                                <div class="doctorName text-center mb-3">
-                                    <h4 class="fs20 cl-pm fw-bold">ডাঃ সাইফ উদ্দিন</h4>
-                                    <h5 class="color-grey">এ্যাসোসিয়েট প্রফেসর</h5>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-2">
-                                    <small>বঙ্গবন্ধু শেখ মজিবুর রহমান মেডিকেল বিশ্ববিদ্যালয়, ঢাকা।</small>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-2">
-                                    <small>ডিগ্রীঃ MBBS, FCPS, MS</small>
-                                </div>
-                                <div class="doctorCardBottom text-center color-grey mb-3">
-                                    <small>রোগী দেখার সময়ঃ সকাল ১০টা - দুপুর ১টা</small>
-                                </div>
-                                <div class="btn-2 doctorBtn">
-                                    <button type="button"
-                                        class="bg-cl-pm border-0 color-white px-5 py-2">প্রোফাইল</button>
-                                </div>
-                            </div>
-                        </div>
+                <div class="d-flex justify-content-around mb-5">
+                  <div
+                    class="
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <div class="porishonkhanimg mb-2">
+                      <img src="assets/image/body/research.png" alt="" />
                     </div>
+                    <div>
+                      <h2>04</h2>
+                    </div>
+                    <div>
+                      <h4 class="fs20">রিসার্চ ল্যাব</h4>
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <div class="porishonkhanimg mb-2">
+                      <img src="assets/image/body/award.png" alt="" />
+                    </div>
+                    <div>
+                      <h2>150</h2>
+                    </div>
+                    <div>
+                      <h4 class="fs20">অ্যাওয়ার্ড</h4>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- gallery -->
-        <div class="gallery" id="gallery">
-            <div class="container text-center">
-                <h2 class="cl-pm fw-bold mb-5">গ্যালারী</h2>
-                <div class="mixItUpbtn mb-4">
-                    <button type="button" class="btn filter all mixitup-control-active" data-filter="all">সব</button>
-                    <button type="button" class="btn filter" data-filter=".cat-1">ক্যাটেগরি ১</button>
-                    <button type="button" class="btn filter" data-filter=".cat-2">ক্যাটেগরি ২</button>
-                    <button type="button" class="btn filter " data-filter=".cat-3">ক্যাটেগরি ৩</button>
-                    <!-- <button type="button" class="btn filter all mixitup-control-active" data-filter="all">সব</button> -->
-                </div>
-
-                <div class="row mixItUpContent">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-1" data-myorder="1">
-                        <img src="assets/image/doctorPortfolio/galery/cat1.png" alt="">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-2" data-myorder="1">
-                        <img src="assets/image/doctorPortfolio/galery/cat2.png" alt="">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-1" data-myorder="2">
-                        <img src="assets/image/doctorPortfolio/galery/cat3.png" alt="">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-3" data-myorder="4">
-                        <img src="assets/image/doctorPortfolio/galery/cat4.png" alt="">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-1" data-myorder="3">
-                        <img src="assets/image/doctorPortfolio/galery/cat5.png" alt="">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-2" data-myorder="2">
-                        <img src="assets/image/doctorPortfolio/galery/cat6.png" alt="">
-                    </div>
-                </div>
+      <div class="doctor mb-5" id="doctor">
+        <div class="container">
+          <div class="doctorTop">
+            <div>
+              <h2 class="fw-bold cl-pm mb-3">ডাক্তার</h2>
             </div>
+            <div class="doctorTopContent d-flex justify-content-between">
+              <div class="mb-4">
+                <small class="color-grey"
+                  >আমাদের ডাক্তারেরা প্রত্যেকেই অভিজ্ঞ এবং সেবা-গ্রহিতার প্রতি
+                  অত্যন্ত আন্তরিক। আপনি বিনা <br />
+                  সংকোচে আপনার সমস্যার কথা ডাক্তারকে খুলে বলতে পারবেন এবং
+                  ডাক্তার কর্তৃক দ্রুত <br />
+                  কার্যকরী পরামর্শ পাবেন বলে আমাদের দৃঢ় বিশ্বাস।</small
+                >
+              </div>
+              <div class="btn-2 mb-2">
+                <button
+                  type="button"
+                  class="bg-cl-green border-0 color-white px-3 py-3"
+                >
+                  আরো ডাক্তার দেখুন
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="doctorBottom">
+            <div id="owl-carousel" class="owl-carousel owl-theme">
+              <div class="col-12">
+                <div
+                  class="
+                    doctorCard
+                    d-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                    p-5
+                  "
+                  onclick="location.href='doctorPortfolio.html'"
+                >
+                  <div class="doctorImg mb-3">
+                    <img src="assets/image/teacher/teacher.jpg" alt="" />
+                  </div>
+                  <div class="doctorName text-center mb-3">
+                    <h4 class="fs20 cl-pm fw-bold">ডাঃ সাইফ উদ্দিন</h4>
+                    <h5 class="color-grey">এ্যাসোসিয়েট প্রফেসর</h5>
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-2">
+                    <small
+                      >বঙ্গবন্ধু শেখ মজিবুর রহমান মেডিকেল বিশ্ববিদ্যালয়,
+                      ঢাকা।</small
+                    >
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-2">
+                    <small>ডিগ্রীঃ MBBS, FCPS, MS</small>
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-3">
+                    <small>রোগী দেখার সময়ঃ সকাল ১০টা - দুপুর ১টা</small>
+                  </div>
+                  <div class="btn-2 doctorBtn">
+                    <button
+                      type="button"
+                      class="bg-cl-pm border-0 color-white px-5 py-2"
+                    >
+                      প্রোফাইল
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div
+                  class="
+                    doctorCard
+                    d-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                    p-5
+                  "
+                  onclick="location.href='doctorPortfolio.html'"
+                >
+                  <div class="doctorImg mb-3">
+                    <img src="assets/image/teacher/teacher.jpg" alt="" />
+                  </div>
+                  <div class="doctorName text-center mb-3">
+                    <h4 class="fs20 cl-pm fw-bold">ডাঃ সাইফ উদ্দিন</h4>
+                    <h5 class="color-grey">এ্যাসোসিয়েট প্রফেসর</h5>
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-2">
+                    <small
+                      >বঙ্গবন্ধু শেখ মজিবুর রহমান মেডিকেল বিশ্ববিদ্যালয়,
+                      ঢাকা।</small
+                    >
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-2">
+                    <small>ডিগ্রীঃ MBBS, FCPS, MS</small>
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-3">
+                    <small>রোগী দেখার সময়ঃ সকাল ১০টা - দুপুর ১টা</small>
+                  </div>
+                  <div class="btn-2 doctorBtn">
+                    <button
+                      type="button"
+                      class="bg-cl-pm border-0 color-white px-5 py-2"
+                    >
+                      প্রোফাইল
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div
+                  class="
+                    doctorCard
+                    d-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                    p-5
+                  "
+                  onclick="location.href='doctorPortfolio.html'"
+                >
+                  <div class="doctorImg mb-3">
+                    <img src="assets/image/teacher/teacher.jpg" alt="" />
+                  </div>
+                  <div class="doctorName text-center mb-3">
+                    <h4 class="fs20 cl-pm fw-bold">ডাঃ সাইফ উদ্দিন</h4>
+                    <h5 class="color-grey">এ্যাসোসিয়েট প্রফেসর</h5>
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-2">
+                    <small
+                      >বঙ্গবন্ধু শেখ মজিবুর রহমান মেডিকেল বিশ্ববিদ্যালয়,
+                      ঢাকা।</small
+                    >
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-2">
+                    <small>ডিগ্রীঃ MBBS, FCPS, MS</small>
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-3">
+                    <small>রোগী দেখার সময়ঃ সকাল ১০টা - দুপুর ১টা</small>
+                  </div>
+                  <div class="btn-2 doctorBtn">
+                    <button
+                      type="button"
+                      class="bg-cl-pm border-0 color-white px-5 py-2"
+                    >
+                      প্রোফাইল
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div
+                  class="
+                    doctorCard
+                    d-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                    p-5
+                  "
+                  onclick="location.href='doctorPortfolio.html'"
+                >
+                  <div class="doctorImg mb-3">
+                    <img src="assets/image/teacher/teacher.jpg" alt="" />
+                  </div>
+                  <div class="doctorName text-center mb-3">
+                    <h4 class="fs20 cl-pm fw-bold">ডাঃ সাইফ উদ্দিন</h4>
+                    <h5 class="color-grey">এ্যাসোসিয়েট প্রফেসর</h5>
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-2">
+                    <small
+                      >বঙ্গবন্ধু শেখ মজিবুর রহমান মেডিকেল বিশ্ববিদ্যালয়,
+                      ঢাকা।</small
+                    >
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-2">
+                    <small>ডিগ্রীঃ MBBS, FCPS, MS</small>
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-3">
+                    <small>রোগী দেখার সময়ঃ সকাল ১০টা - দুপুর ১টা</small>
+                  </div>
+                  <div class="btn-2 doctorBtn">
+                    <button
+                      type="button"
+                      class="bg-cl-pm border-0 color-white px-5 py-2"
+                    >
+                      প্রোফাইল
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div
+                  class="
+                    doctorCard
+                    d-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                    p-5
+                  "
+                  onclick="location.href='doctorPortfolio.html'"
+                >
+                  <div class="doctorImg mb-3">
+                    <img src="assets/image/teacher/teacher.jpg" alt="" />
+                  </div>
+                  <div class="doctorName text-center mb-3">
+                    <h4 class="fs20 cl-pm fw-bold">ডাঃ সাইফ উদ্দিন</h4>
+                    <h5 class="color-grey">এ্যাসোসিয়েট প্রফেসর</h5>
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-2">
+                    <small
+                      >বঙ্গবন্ধু শেখ মজিবুর রহমান মেডিকেল বিশ্ববিদ্যালয়,
+                      ঢাকা।</small
+                    >
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-2">
+                    <small>ডিগ্রীঃ MBBS, FCPS, MS</small>
+                  </div>
+                  <div class="doctorCardBottom text-center color-grey mb-3">
+                    <small>রোগী দেখার সময়ঃ সকাল ১০টা - দুপুর ১টা</small>
+                  </div>
+                  <div class="btn-2 doctorBtn">
+                    <button
+                      type="button"
+                      class="bg-cl-pm border-0 color-white px-5 py-2"
+                    >
+                      প্রোফাইল
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="offer mb-5" id="offer">
-            <div class="offerTop py-5">
-                <div class="text-center py-5 px-2 my-5">
-                    <h2 class="color-white fw-bold">আমাদের অফারসমুহ</h2>
-                    <small class="color-grey">আমাদের অফার সমূহ স্বল্প মূল্যে সর্বোচ্চ সেবার নিশ্চয়তা দেয়। তাই নিঃসঙ্কোচে
-                        আপনি <br> আমাদের যেকোনো অফার উপভোগ করে আপনার পুরো পরিবারের স্বাস্থ্য সুরক্ষা নিশ্চিত <br> করতে
-                        পারেন।</small>
-                </div>
+      <!-- gallery -->
+      <div class="gallery" id="gallery">
+        <div class="container text-center">
+          <h2 class="cl-pm fw-bold mb-5">গ্যালারী</h2>
+          <div class="mixItUpbtn mb-4">
+            <button
+              type="button"
+              class="btn filter all mixitup-control-active"
+              data-filter="all"
+            >
+              সব
+            </button>
+            <button type="button" class="btn filter" data-filter=".cat-1">
+              ক্যাটেগরি ১
+            </button>
+            <button type="button" class="btn filter" data-filter=".cat-2">
+              ক্যাটেগরি ২
+            </button>
+            <button type="button" class="btn filter" data-filter=".cat-3">
+              ক্যাটেগরি ৩
+            </button>
+            <!-- <button type="button" class="btn filter all mixitup-control-active" data-filter="all">সব</button> -->
+          </div>
+
+          <div class="row mixItUpContent">
+            <div
+              class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-1"
+              data-myorder="1"
+            >
+              <img src="assets/image/doctorPortfolio/galery/cat1.png" alt="" />
             </div>
-            <div class="container">
-                <div class="offerBottom my-5">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-3 col-lg-4 col-md-6 mb-2">
-                            <div class="offerCard bg-cl-grey2 py-5">
-                                <div class="mb-5 px-5">
-                                    <h4 class="cl-pm fw-bold mb-3">ফ্রী স্বাস্থ্যসেবা</h4>
-                                    <h5 class="color-grey">৳ ২.৫ /প্রতি কল</h5>
-                                </div>
-                                <div class="px-5">
-                                    <div class="mb-5">
-                                        <small class="color-grey">নব হেলথ লিমিটেড যেকোনো স্বাস্থ্য জটিলতায় রয়েছে আপনার
-                                            পাশে।
-                                            আমাদের এই সেবার আওতায় আপনি আমাদের হটলাইনে কল করার মাধ্যমে পেতে বিনামূল্যে
-                                            স্বাস্থ্যসেবা। আমাদের অভিজ্ঞ স্পেশালিস্ট আপনার যেকোনো সেবায় রয়েছেন সর্বদা
-                                            তৎপর।
-                                            কল করুন আমাদের হটলাইন নাম্বারেরঃ ০৯৬০৬ ৯৯৬৬৫৫</small>
-                                    </div>
-                                    <div class="btn-2 offerBtn">
-                                        <button type="button"
-                                            class="bg-cl-pm border-0 color-white px-5 py-2 w-100" onclick="location.href='registration.html'">সিলেক্ট</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 mb-2">
-                            <div class="offerCard offerCard2 bg-cl-grey2">
-                                <div class="offerCard2Heading mb-5 px-5 bg-white py-4">
-                                    <h4 class="cl-pm fw-bold mb-3">ফ্রী স্বাস্থ্যসেবা</h4>
-                                    <h5 class="color-grey">৳ ২.৫ /প্রতি কল</h5>
-                                </div>
-                                <div class="px-5 pb-5">
-                                    <div class="mb-5">
-                                        <small class="color-grey">নব হেলথ লিমিটেড যেকোনো স্বাস্থ্য জটিলতায় রয়েছে আপনার
-                                            পাশে।
-                                            আমাদের এই সেবার আওতায় আপনি আমাদের হটলাইনে কল করার মাধ্যমে পেতে বিনামূল্যে
-                                            স্বাস্থ্যসেবা। আমাদের অভিজ্ঞ স্পেশালিস্ট আপনার যেকোনো সেবায় রয়েছেন সর্বদা
-                                            তৎপর।
-                                            কল করুন আমাদের হটলাইন নাম্বারেরঃ ০৯৬০৬ ৯৯৬৬৫৫</small>
-                                    </div>
-                                    <div class="btn-2 offerBtn">
-                                        <button type="button"
-                                            class="bg-cl-pm border-0 color-white px-5 py-2 w-100" onclick="location.href='registration.html'">সিলেক্ট</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 mb-2">
-                            <div class="offerCard bg-cl-grey2 py-5">
-                                <div class="mb-5 px-5">
-                                    <h4 class="cl-pm fw-bold mb-3">ফ্রী স্বাস্থ্যসেবা</h4>
-                                    <h5 class="color-grey">৳ ২.৫ /প্রতি কল</h5>
-                                </div>
-                                <div class="px-5">
-                                    <div class="mb-5">
-                                        <small class="color-grey">নব হেলথ লিমিটেড যেকোনো স্বাস্থ্য জটিলতায় রয়েছে আপনার
-                                            পাশে।
-                                            আমাদের এই সেবার আওতায় আপনি আমাদের হটলাইনে কল করার মাধ্যমে পেতে বিনামূল্যে
-                                            স্বাস্থ্যসেবা। আমাদের অভিজ্ঞ স্পেশালিস্ট আপনার যেকোনো সেবায় রয়েছেন সর্বদা
-                                            তৎপর।
-                                            কল করুন আমাদের হটলাইন নাম্বারেরঃ ০৯৬০৬ ৯৯৬৬৫৫</small>
-                                    </div>
-                                    <div class="btn-2 offerBtn">
-                                        <button type="button"
-                                            class="bg-cl-pm border-0 color-white px-5 py-2 w-100" onclick="location.href='registration.html'">সিলেক্ট</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div
+              class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-2"
+              data-myorder="1"
+            >
+              <img src="assets/image/doctorPortfolio/galery/cat2.png" alt="" />
             </div>
+            <div
+              class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-1"
+              data-myorder="2"
+            >
+              <img src="assets/image/doctorPortfolio/galery/cat3.png" alt="" />
+            </div>
+            <div
+              class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-3"
+              data-myorder="4"
+            >
+              <img src="assets/image/doctorPortfolio/galery/cat4.png" alt="" />
+            </div>
+            <div
+              class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-1"
+              data-myorder="3"
+            >
+              <img src="assets/image/doctorPortfolio/galery/cat5.png" alt="" />
+            </div>
+            <div
+              class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3 mix cat-2"
+              data-myorder="2"
+            >
+              <img src="assets/image/doctorPortfolio/galery/cat6.png" alt="" />
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="subida" id="subida">
-            <div class="container">
-                <div class="subidaTop text-center py-5">
-                    <h2 class="fw-bold cl-pm mb-4">সুবিধাসমুহ</h2>
-                    <small class="color-grey">নব হেলথ এর অ্যাপ, ওয়েবসাইট কিংবা ডাটাবেজ সম্পূর্ণভাবে আধুনিক প্রযুক্তি
-                        নির্ভর
-                        <br> এবং সবচেয়ে কম সময়ে সাড়া দানে পারদর্শী। এছাড়াও রয়েছে ২৪/৭ গ্রাহক সেবা সর্বাধিক <br> সাশ্রয়ী
-                        মূল্যে।</small>
-                </div>
-                <div class="subidaMiddle">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-xl-6">
-                            <div class="subidaMiddleImg px-4 mb-4">
-                                <img src="assets/image/body/facility1.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-xl-6">
-                            <div class="subidaMiddleContent px-4 mb-2">
-                                <div class="d-flex mb-4">
-                                    <div>
-                                        <div
-                                            class="subidaIcon bg-cl-pm d-flex justify-content-center align-items-center">
-                                            <i class="fas fa-th-large color-white"></i>
-                                        </div>
-                                    </div>
-                                    <div class="subidaText px-5 flex-wrap">
-                                        <h4 class="fw-bold cl-pm">যেকোনো ডিভাইসে ব্যবহার উপযোগী</h4>
-                                        <small class="color-grey">যেকোনো ইন্টারনেট ও ওয়েব ব্রাউজারে আমাদের নব হেলথ
-                                            সিস্টেম
-                                            চলতে পারে বিনা বাঁধায়। যেকোনো ইলেক্ট্রিক ডিভাইসে সব গুলো আমাদের এই সিস্টেম
-                                            সব
-                                            ধরনের কন্টেন্ট, ছবি ও অন্যান্য তথ্য দেখাতে সক্ষম।</small>
-                                    </div>
-                                </div>
-                                <div class="d-flex mb-4">
-                                    <div>
-                                        <div
-                                            class="subidaIcon bg-cl-pm d-flex justify-content-center align-items-center">
-                                            <i class="far fa-calendar-alt color-white"></i>
-                                        </div>
-                                    </div>
-                                    <div class="subidaText px-5">
-                                        <h4 class="fw-bold cl-pm">আপনার ট্রিটমেন্ট হিস্টোরি</h4>
-                                        <small class="color-grey">একবার নব হেলথের সাথে রেজিস্টার করার পর থেকে আপনার সব
-                                            ধরনের
-                                            ট্রিটমেন্ট রেকর্ড <br> আমাদের সিস্টেমে সংরক্ষিত থাকে, যা পরবর্তিতে আপনার
-                                            যেকোনো
-                                            দরকারে আপনি ব্যবহার করতে পারবেন। আপনার ট্রিটমেন্ট সংক্রান্ত যেকোনো তথ্য
-                                            আমাদের
-                                            কাছে সর্বোচ্চ নিরাপত্তার সাথে সংরক্ষিত থাকে। নব আইটি লিমিটেড এর গ্রাহকদের
-                                            সর্বোচ্চ নিরাপত্তায় প্রতিশ্রুতিবদ্ধ।</small>
-                                    </div>
-                                </div>
-                                <div class="d-flex">
-                                    <div>
-                                        <div
-                                            class="subidaIcon bg-cl-pm d-flex justify-content-center align-items-center">
-                                            <i class="fas fa-history color-white"></i>
-                                        </div>
-                                    </div>
-                                    <div class="subidaText px-5">
-                                        <h4 class="fw-bold cl-pm">যেকোনো ডিভাইসে ব্যবহার উপযোগী</h4>
-                                        <small class="color-grey">যেকোনো ইন্টারনেট ও ওয়েব ব্রাউজারে আমাদের নব হেলথ
-                                            সিস্টেম
-                                            চলতে পারে বিনা বাঁধায়। যেকোনো ইলেক্ট্রিক ডিভাইসে সব গুলো আমাদের এই সিস্টেম
-                                            সব
-                                            ধরনের কন্টেন্ট, ছবি ও অন্যান্য তথ্য দেখাতে সক্ষম।</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="subidaBottom">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-xl-6">
-                            <div class="subidaMiddleContent px-4 mb-2">
-                                <div class="d-flex mb-4">
-                                    <div class="subidaText px-5 flex-wrap text-end">
-                                        <h4 class="fw-bold cl-pm">স্মার্ট ড্যাশবোর্ড</h4>
-                                        <small class="color-grey">নব হেলথ অ্যাপে একটি স্মার্ট ড্যাশবোর্ড রয়েছে যেখানে
-                                            আপনি
-                                            এখান থেকেই আপনার প্রয়োজনীয় ডাক্তার খোঁজা, ভিডিও কল করা কিংবা ফ্রী
-                                            স্বাস্থ্যসেবা
-                                            থেকে শুরু করে সব ধরনের সেবা নিতে পারবেন।</small>
-                                    </div>
-                                    <div>
-                                        <div
-                                            class="subidaIcon bg-cl-pm d-flex justify-content-center align-items-center">
-                                            <i class="fas fa-th-large color-white"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex mb-4">
-                                    <div class="subidaText px-5 flex-wrap text-end">
-                                        <h4 class="fw-bold cl-pm">স্মার্ট সার্চিং</h4>
-                                        <small class="color-grey">নব হেলথ লিমিটেড আপনার সেবায় সর্বদা নিয়োজিত। আমাদের এই
-                                            সেবায় রয়েছে একটি স্মার্ট ফিল্টার তথা সার্চিং সুবিধা, যা ব্যবহার করে আপনি
-                                            আপনার
-                                            পছন্দের ডাক্তার বা যেকোনো স্বাস্থ্য সেবা নিতে পারেন। বাংলাদেশের সেরা ডাক্তার
-                                            সম্পর্কে শতভাগ নির্ভরযোগ্য তথ্য দিতে আমরা আপনার কাছে দৃর প্রতিজ্ঞ।</small>
-                                    </div>
-                                    <div>
-                                        <div
-                                            class="subidaIcon bg-cl-pm d-flex justify-content-center align-items-center">
-                                            <i class="fas fa-th-large color-white"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex mb-4">
-                                    <div class="subidaText px-5 flex-wrap text-end">
-                                        <h4 class="fw-bold cl-pm">তুলনামুলক কম মূল্যে সেবা</h4>
-                                        <small class="color-grey">আমাদের এই অ্যাপ ব্যাবহারে আপনাকে আলাদা কোনো পেমেন্ট
-                                            করার
-                                            দরকার নেই। সরাসরি এই লিংকে যান গুগল প্লে স্টোর অথবা সরাসরি আমাদের অ্যাপ
-                                            ডাউনলোড
-                                            করুন এই লিংক থেকে ডাউনলোড অ্যাপ</small>
-                                    </div>
-                                    <div>
-                                        <div
-                                            class="subidaIcon bg-cl-pm d-flex justify-content-center align-items-center">
-                                            <i class="fas fa-th-large color-white"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6">
-                            <div class="subidaMiddleImg px-4 mb-5">
-                                <img src="assets/image/body/facility2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="offer mb-5" id="offer">
+        <div class="offerTop py-5">
+          <div class="text-center py-5 px-2 my-5">
+            <h2 class="color-white fw-bold">আমাদের অফারসমুহ</h2>
+            <small class="color-grey"
+              >আমাদের অফার সমূহ স্বল্প মূল্যে সর্বোচ্চ সেবার নিশ্চয়তা দেয়। তাই
+              নিঃসঙ্কোচে আপনি <br />
+              আমাদের যেকোনো অফার উপভোগ করে আপনার পুরো পরিবারের স্বাস্থ্য সুরক্ষা
+              নিশ্চিত <br />
+              করতে পারেন।</small
+            >
+          </div>
         </div>
-
-        <div class="appointment pcPadding bg-cl-pm py-5" id="appointment">
-            <div class="container">
-                <div class="color-white fw-bold px-3 py-5 text-center">
-                    <h2>এপয়েন্টমেন্ট</h2>
-                    <small>নব হেলথ সেবায় কোন বাড়তি ঝামেলা ছাড়াই এখন বিশেষজ্ঞ ডাক্তারের এপয়েন্টমেন্ট পাওয়া যাচ্ছে।
-                        আমাদের
-                        <br> মোবাইল অ্যাপ এবং ওয়েবসাইট এর মাধ্যমে আপনার পছন্দ মত ডাক্তারের এপয়েন্টমেন্ট নেয়া যাবে খুব
-                        সহজেই।</small>
+        <div class="container">
+          <div class="offerBottom my-5">
+            <div class="row justify-content-center">
+              <div class="col-xl-3 col-lg-4 col-md-6 mb-2">
+                <div class="offerCard bg-cl-grey2 py-5">
+                  <div class="mb-5 px-5">
+                    <h4 class="cl-pm fw-bold mb-3">ফ্রী স্বাস্থ্যসেবা</h4>
+                    <h5 class="color-grey">৳ ২.৫ /প্রতি কল</h5>
+                  </div>
+                  <div class="px-5">
+                    <div class="mb-5">
+                      <small class="color-grey"
+                        >নব হেলথ লিমিটেড যেকোনো স্বাস্থ্য জটিলতায় রয়েছে আপনার
+                        পাশে। আমাদের এই সেবার আওতায় আপনি আমাদের হটলাইনে কল করার
+                        মাধ্যমে পেতে বিনামূল্যে স্বাস্থ্যসেবা। আমাদের অভিজ্ঞ
+                        স্পেশালিস্ট আপনার যেকোনো সেবায় রয়েছেন সর্বদা তৎপর। কল
+                        করুন আমাদের হটলাইন নাম্বারেরঃ ০৯৬০৬ ৯৯৬৬৫৫</small
+                      >
+                    </div>
+                    <div class="btn-2 offerBtn">
+                      <button
+                        type="button"
+                        class="bg-cl-pm border-0 color-white px-5 py-2 w-100"
+                        onclick="location.href='registration.html'"
+                      >
+                        সিলেক্ট
+                      </button>
+                    </div>
+                  </div>
                 </div>
-                <div class="appointmentBottom">
-                    <form action="">
-                        <div class="row">
-                            <div class="col-xl-4">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control border-0 py-3" placeholder="আপনার নাম"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                </div>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="input-group mb-3">
-                                    <input type="email" class="form-control border-0 py-3" placeholder="আপনার ইমেইল"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                </div>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="input-group mb-3">
-                                    <input type="number" class="form-control border-0 py-3" placeholder="আপনার ফোন"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                </div>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="input-group mb-3">
-                                    <input type="date" class="form-control border-0 py-3"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                </div>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="input-group mb-3">
-                                    <select class="form-select py-3" aria-label="Default select example">
-                                        <option selected>ডিপার্টমেন্ট সিলেক্ট করুন</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="input-group mb-3">
-                                    <select class="form-select py-3" aria-label="Default select example">
-                                        <option selected>ডাক্তার সিলেক্ট করুন</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-xl-12">
-                                <div class="input-group mb-3">
-                                    <textarea name="" id="" cols="30" rows="10" class="w-100 border-0 p-3"
-                                        placeholder="আপনার বার্তা (যদি থাকে)"></textarea>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <button type="submit"
-                                    class="bg-cl-green border-0 color-white px-3 py-2 rounded-3">এপয়েন্টমেন্ট </button>
-                            </div>
-                        </div>
-                    </form>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 mb-2">
+                <div class="offerCard offerCard2 bg-cl-grey2">
+                  <div class="offerCard2Heading mb-5 px-5 bg-white py-4">
+                    <h4 class="cl-pm fw-bold mb-3">ফ্রী স্বাস্থ্যসেবা</h4>
+                    <h5 class="color-grey">৳ ২.৫ /প্রতি কল</h5>
+                  </div>
+                  <div class="px-5 pb-5">
+                    <div class="mb-5">
+                      <small class="color-grey"
+                        >নব হেলথ লিমিটেড যেকোনো স্বাস্থ্য জটিলতায় রয়েছে আপনার
+                        পাশে। আমাদের এই সেবার আওতায় আপনি আমাদের হটলাইনে কল করার
+                        মাধ্যমে পেতে বিনামূল্যে স্বাস্থ্যসেবা। আমাদের অভিজ্ঞ
+                        স্পেশালিস্ট আপনার যেকোনো সেবায় রয়েছেন সর্বদা তৎপর। কল
+                        করুন আমাদের হটলাইন নাম্বারেরঃ ০৯৬০৬ ৯৯৬৬৫৫</small
+                      >
+                    </div>
+                    <div class="btn-2 offerBtn">
+                      <button
+                        type="button"
+                        class="bg-cl-pm border-0 color-white px-5 py-2 w-100"
+                        onclick="location.href='registration.html'"
+                      >
+                        সিলেক্ট
+                      </button>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 mb-2">
+                <div class="offerCard bg-cl-grey2 py-5">
+                  <div class="mb-5 px-5">
+                    <h4 class="cl-pm fw-bold mb-3">ফ্রী স্বাস্থ্যসেবা</h4>
+                    <h5 class="color-grey">৳ ২.৫ /প্রতি কল</h5>
+                  </div>
+                  <div class="px-5">
+                    <div class="mb-5">
+                      <small class="color-grey"
+                        >নব হেলথ লিমিটেড যেকোনো স্বাস্থ্য জটিলতায় রয়েছে আপনার
+                        পাশে। আমাদের এই সেবার আওতায় আপনি আমাদের হটলাইনে কল করার
+                        মাধ্যমে পেতে বিনামূল্যে স্বাস্থ্যসেবা। আমাদের অভিজ্ঞ
+                        স্পেশালিস্ট আপনার যেকোনো সেবায় রয়েছেন সর্বদা তৎপর। কল
+                        করুন আমাদের হটলাইন নাম্বারেরঃ ০৯৬০৬ ৯৯৬৬৫৫</small
+                      >
+                    </div>
+                    <div class="btn-2 offerBtn">
+                      <button
+                        type="button"
+                        class="bg-cl-pm border-0 color-white px-5 py-2 w-100"
+                        onclick="location.href='registration.html'"
+                      >
+                        সিলেক্ট
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="FaqQuestion pcPadding bg-cl-grey2 py-5" id="FaqQuestion">
-            <div class="container py-5">
-                <div class="row align-items-center">
-                    <div class="col-xl-6">
-                        <div class="questionLeft px-5">
-                            <h2 class="cl-pm mb-3">আপনার প্রশ্ন</h2>
-                            <small class="color-grey">আপনার যেকোনো প্রশ্ন সর্বদা আমাদের কাছে গুরুত্বপূর্ণ। বিনা দ্বিধায়
-                                যেকোনো প্রশ্নের উত্তর জানুন অথবা সরাসরি আমাদের সাথে যোগাযোগ করুন।</small>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-12">
-                        <div class="question px-4">
-                            <div class="my-3">
-                                <!-- question title -->
-                                <div class="question-title bg-cl-pm d-flex justify-content-between">
-                                    <div class="d-flex">
-                                        <div
-                                            class="bg-cl-green d-flex justify-content-center align-items-center px-3 py-2">
-                                            <small class="color-white">প্রশ্ন ১ঃ </small>
-                                        </div>
-                                        <div class="px-3 py-2 me-2">
-                                            <small class="color-white">নব হেলথ লিমিটেড কি?</small>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <button type="button"
-                                            class="question-btn d-flex bg-cl-pm color-white fw-light px-3 py-2 rounded-3 border-0">
-                                            <div>
-                                                <span class="plus-icon">
-                                                    <i class="fas fa-plus"></i>
-                                                </span>
-                                                <span class="minus-icon">
-                                                    <i class="fas fa-minus"></i>
-                                                </span>
-                                            </div>
-                                        </button>
-                                    </div>
-                                </div>
-                                <!-- question text -->
-                                <div class="question-text bg-white p-3">
-                                    <small>
-                                        নব হেলথ টেলিমেডিসিন সেবা প্রদানের প্লাটফর্ম যেখানে অভিজ্ঞ চিকিৎসকদের একটি টিম
-                                        ২৪/৭
-                                        ভিডিও কনফারেন্সিং এর মাধ্যমে স্বাস্থ্য সেবা প্রদান করে থাকেন।
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="question px-4">
-                            <div class="my-3">
-                                <!-- question title -->
-                                <div class="question-title bg-cl-pm d-flex justify-content-between">
-                                    <div class="d-flex">
-                                        <div
-                                            class="bg-cl-green d-flex justify-content-center align-items-center px-3 py-2">
-                                            <small class="color-white">প্রশ্ন ২ঃ </small>
-                                        </div>
-                                        <div class="px-3 py-2">
-                                            <small class="color-white">নব হেলথ লিমিটেড কি ধরনের সেবা প্রদান করে
-                                                থাকে?</small>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <button type="button"
-                                            class="question-btn d-flex bg-cl-pm color-white fw-light px-3 py-2 rounded-3 border-0">
-                                            <div class="">
-                                                <span class="plus-icon">
-                                                    <i class="fas fa-plus"></i>
-                                                </span>
-                                                <span class="minus-icon">
-                                                    <i class="fas fa-minus"></i>
-                                                </span>
-                                            </div>
-                                        </button>
-                                    </div>
-                                </div>
-                                <!-- question text -->
-                                <div class="question-text bg-white p-3">
-                                    <small>
-                                        নব হেলথ টেলিমেডিসিন সেবা প্রদানের প্লাটফর্ম যেখানে অভিজ্ঞ চিকিৎসকদের একটি টিম
-                                        ২৪/৭
-                                        ভিডিও কনফারেন্সিং এর মাধ্যমে স্বাস্থ্য সেবা প্রদান করে থাকেন।
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="question px-4">
-                            <div class="my-3">
-                                <!-- question title -->
-                                <div class="question-title bg-cl-pm d-flex justify-content-between">
-                                    <div class="d-flex">
-                                        <div
-                                            class="bg-cl-green d-flex justify-content-center align-items-center px-3 py-2">
-                                            <small class="color-white">প্রশ্ন ৩ঃ </small>
-                                        </div>
-                                        <div class="px-3 py-2">
-                                            <small class="color-white">ডাক্তারের এপয়েন্টমেন্ট নেয়ার জন্য কি করতে
-                                                হবে?</small>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <button type="button"
-                                            class="question-btn d-flex bg-cl-pm color-white fw-light px-3 py-2 rounded-3 border-0">
-                                            <div>
-                                                <span class="plus-icon">
-                                                    <i class="fas fa-plus"></i>
-                                                </span>
-                                                <span class="minus-icon">
-                                                    <i class="fas fa-minus"></i>
-                                                </span>
-                                            </div>
-                                        </button>
-                                    </div>
-                                </div>
-                                <!-- question text -->
-                                <div class="question-text bg-white p-3">
-                                    <small>
-                                        নব হেলথ টেলিমেডিসিন সেবা প্রদানের প্লাটফর্ম যেখানে অভিজ্ঞ চিকিৎসকদের একটি টিম
-                                        ২৪/৭
-                                        ভিডিও কনফারেন্সিং এর মাধ্যমে স্বাস্থ্য সেবা প্রদান করে থাকেন।
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="question px-4">
-                            <div class="my-3">
-                                <!-- question title -->
-                                <div class="question-title bg-cl-pm d-flex justify-content-between">
-                                    <div class="d-flex">
-                                        <div
-                                            class="bg-cl-green d-flex justify-content-center align-items-center px-3 py-2">
-                                            <small class="color-white">প্রশ্ন ৪ঃ </small>
-                                        </div>
-                                        <div class="px-3 py-2">
-                                            <small class="color-white">চিকিৎসা সেবা গ্রহণের ফি কিভাবে প্রদান
-                                                করবো?</small>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <button type="button"
-                                            class="question-btn d-flex bg-cl-pm color-white fw-light px-3 py-2 rounded-3 border-0">
-                                            <div>
-                                                <span class="plus-icon">
-                                                    <i class="fas fa-plus"></i>
-                                                </span>
-                                                <span class="minus-icon">
-                                                    <i class="fas fa-minus"></i>
-                                                </span>
-                                            </div>
-                                        </button>
-                                    </div>
-                                </div>
-                                <!-- question text -->
-                                <div class="question-text bg-white p-3">
-                                    <small>
-                                        নব হেলথ টেলিমেডিসিন সেবা প্রদানের প্লাটফর্ম যেখানে অভিজ্ঞ চিকিৎসকদের একটি টিম
-                                        ২৪/৭
-                                        ভিডিও কনফারেন্সিং এর মাধ্যমে স্বাস্থ্য সেবা প্রদান করে থাকেন।
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="question px-4">
-                            <div class="my-3">
-                                <!-- question title -->
-                                <div class="question-title bg-cl-pm d-flex justify-content-between">
-                                    <div class="d-flex">
-                                        <div
-                                            class="bg-cl-green d-flex justify-content-center align-items-center px-3 py-2">
-                                            <small class="color-white">প্রশ্ন ৫ঃ </small>
-                                        </div>
-                                        <div class="px-3 py-2">
-                                            <small class="color-white">সেবা গ্রহিতার তথ্যের নিরাপত্তা কিভাবে প্রদান করা
-                                                হয়?</small>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <button type="button"
-                                            class="question-btn d-flex bg-cl-pm color-white fw-light px-3 py-2 rounded-3 border-0">
-                                            <div>
-                                                <span class="plus-icon">
-                                                    <i class="fas fa-plus"></i>
-                                                </span>
-                                                <span class="minus-icon">
-                                                    <i class="fas fa-minus"></i>
-                                                </span>
-                                            </div>
-                                        </button>
-                                    </div>
-                                </div>
-                                <!-- question text -->
-                                <div class="question-text bg-white p-3">
-                                    <small>
-                                        নব হেলথ টেলিমেডিসিন সেবা প্রদানের প্লাটফর্ম যেখানে অভিজ্ঞ চিকিৎসকদের একটি টিম
-                                        ২৪/৭
-                                        ভিডিও কনফারেন্সিং এর মাধ্যমে স্বাস্থ্য সেবা প্রদান করে থাকেন।
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="subida" id="subida">
+        <div class="container">
+          <div class="subidaTop text-center py-5">
+            <h2 class="fw-bold cl-pm mb-4">সুবিধাসমুহ</h2>
+            <small class="color-grey"
+              >নব হেলথ এর অ্যাপ, ওয়েবসাইট কিংবা ডাটাবেজ সম্পূর্ণভাবে আধুনিক
+              প্রযুক্তি নির্ভর <br />
+              এবং সবচেয়ে কম সময়ে সাড়া দানে পারদর্শী। এছাড়াও রয়েছে ২৪/৭ গ্রাহক
+              সেবা সর্বাধিক <br />
+              সাশ্রয়ী মূল্যে।</small
+            >
+          </div>
+          <div class="subidaMiddle">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-xl-6">
+                <div class="subidaMiddleImg px-4 mb-4">
+                  <img src="assets/image/body/facility1.png" alt="" />
                 </div>
-            </div>
-        </div>
-
-        <div class="downloadApp pcPadding bg-cl-pm py-5" id="downloadApp">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-6">
-                        <div class="downloadAppLeft px-5 mb-5">
-                            <div class="mb-4">
-                                <h2 class="color-white mb-3">ডাউনলোড</h2>
-                                <small class="color-white">যেকোনো ইন্টারনেট ও ওয়েব ব্রাউজারে আমাদের নব হেলথ সিস্টেম চলতে
-                                    পারে বিনা বাঁধায়।
-                                    যেকোনো ইলেক্ট্রিক ডিভাইসে সব গুলো আমাদের এই সিস্টেম সব ধরনের কন্টেন্ট, ছবি ও
-                                    অন্যান্য
-                                    তথ্য দেখাতে সক্ষম।</small>
-                            </div>
-                            <div class="downloadAppLeftIcon d-flex">
-                                <div
-                                    class="downloadAppLeftIcon1 d-flex align-items-center bg-cl-light-black me-2 px-4 py-2 rounded-3 cursor mb-2">
-                                    <div class="me-2">
-                                        <i class="fab fa-google-play cl-blue"></i>
-                                    </div>
-                                    <div class="d-flex flex-column">
-                                        <small class="color-white">Google Play</small>
-                                        <small class="color-grey">Get It Now</small>
-                                    </div>
-                                </div>
-                                <div
-                                    class="d-flex align-items-center bg-cl-light-black px-4 py-2 rounded-3 cursor mb-2">
-                                    <div class="me-2">
-                                        <i class="fab fa-app-store-ios cl-blue"></i>
-                                    </div>
-                                    <div class="d-flex flex-column">
-                                        <small class="color-white">Apple Store</small>
-                                        <small class="color-grey">Get It Now</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="subidaMiddleContent px-4 mb-2">
+                  <div class="d-flex mb-4">
+                    <div>
+                      <div
+                        class="
+                          subidaIcon
+                          bg-cl-pm
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                        "
+                      >
+                        <i class="fas fa-th-large color-white"></i>
+                      </div>
                     </div>
-                    <div class="col-xl-6">
-                        <div class="downloadAppRight">
-                            <img src="assets/image/body/download.png" alt="">
-                        </div>
+                    <div class="subidaText px-5 flex-wrap">
+                      <h4 class="fw-bold cl-pm">
+                        যেকোনো ডিভাইসে ব্যবহার উপযোগী
+                      </h4>
+                      <small class="color-grey"
+                        >যেকোনো ইন্টারনেট ও ওয়েব ব্রাউজারে আমাদের নব হেলথ
+                        সিস্টেম চলতে পারে বিনা বাঁধায়। যেকোনো ইলেক্ট্রিক ডিভাইসে
+                        সব গুলো আমাদের এই সিস্টেম সব ধরনের কন্টেন্ট, ছবি ও
+                        অন্যান্য তথ্য দেখাতে সক্ষম।</small
+                      >
                     </div>
+                  </div>
+                  <div class="d-flex mb-4">
+                    <div>
+                      <div
+                        class="
+                          subidaIcon
+                          bg-cl-pm
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                        "
+                      >
+                        <i class="far fa-calendar-alt color-white"></i>
+                      </div>
+                    </div>
+                    <div class="subidaText px-5">
+                      <h4 class="fw-bold cl-pm">আপনার ট্রিটমেন্ট হিস্টোরি</h4>
+                      <small class="color-grey"
+                        >একবার নব হেলথের সাথে রেজিস্টার করার পর থেকে আপনার সব
+                        ধরনের ট্রিটমেন্ট রেকর্ড <br />
+                        আমাদের সিস্টেমে সংরক্ষিত থাকে, যা পরবর্তিতে আপনার যেকোনো
+                        দরকারে আপনি ব্যবহার করতে পারবেন। আপনার ট্রিটমেন্ট
+                        সংক্রান্ত যেকোনো তথ্য আমাদের কাছে সর্বোচ্চ নিরাপত্তার
+                        সাথে সংরক্ষিত থাকে। নব আইটি লিমিটেড এর গ্রাহকদের
+                        সর্বোচ্চ নিরাপত্তায় প্রতিশ্রুতিবদ্ধ।</small
+                      >
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div>
+                      <div
+                        class="
+                          subidaIcon
+                          bg-cl-pm
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                        "
+                      >
+                        <i class="fas fa-history color-white"></i>
+                      </div>
+                    </div>
+                    <div class="subidaText px-5">
+                      <h4 class="fw-bold cl-pm">
+                        যেকোনো ডিভাইসে ব্যবহার উপযোগী
+                      </h4>
+                      <small class="color-grey"
+                        >যেকোনো ইন্টারনেট ও ওয়েব ব্রাউজারে আমাদের নব হেলথ
+                        সিস্টেম চলতে পারে বিনা বাঁধায়। যেকোনো ইলেক্ট্রিক ডিভাইসে
+                        সব গুলো আমাদের এই সিস্টেম সব ধরনের কন্টেন্ট, ছবি ও
+                        অন্যান্য তথ্য দেখাতে সক্ষম।</small
+                      >
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="subidaBottom">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-xl-6">
+                <div class="subidaMiddleContent px-4 mb-2">
+                  <div class="d-flex mb-4">
+                    <div class="subidaText px-5 flex-wrap text-end">
+                      <h4 class="fw-bold cl-pm">স্মার্ট ড্যাশবোর্ড</h4>
+                      <small class="color-grey"
+                        >নব হেলথ অ্যাপে একটি স্মার্ট ড্যাশবোর্ড রয়েছে যেখানে
+                        আপনি এখান থেকেই আপনার প্রয়োজনীয় ডাক্তার খোঁজা, ভিডিও কল
+                        করা কিংবা ফ্রী স্বাস্থ্যসেবা থেকে শুরু করে সব ধরনের সেবা
+                        নিতে পারবেন।</small
+                      >
+                    </div>
+                    <div>
+                      <div
+                        class="
+                          subidaIcon
+                          bg-cl-pm
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                        "
+                      >
+                        <i class="fas fa-th-large color-white"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex mb-4">
+                    <div class="subidaText px-5 flex-wrap text-end">
+                      <h4 class="fw-bold cl-pm">স্মার্ট সার্চিং</h4>
+                      <small class="color-grey"
+                        >নব হেলথ লিমিটেড আপনার সেবায় সর্বদা নিয়োজিত। আমাদের এই
+                        সেবায় রয়েছে একটি স্মার্ট ফিল্টার তথা সার্চিং সুবিধা, যা
+                        ব্যবহার করে আপনি আপনার পছন্দের ডাক্তার বা যেকোনো
+                        স্বাস্থ্য সেবা নিতে পারেন। বাংলাদেশের সেরা ডাক্তার
+                        সম্পর্কে শতভাগ নির্ভরযোগ্য তথ্য দিতে আমরা আপনার কাছে দৃর
+                        প্রতিজ্ঞ।</small
+                      >
+                    </div>
+                    <div>
+                      <div
+                        class="
+                          subidaIcon
+                          bg-cl-pm
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                        "
+                      >
+                        <i class="fas fa-th-large color-white"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex mb-4">
+                    <div class="subidaText px-5 flex-wrap text-end">
+                      <h4 class="fw-bold cl-pm">তুলনামুলক কম মূল্যে সেবা</h4>
+                      <small class="color-grey"
+                        >আমাদের এই অ্যাপ ব্যাবহারে আপনাকে আলাদা কোনো পেমেন্ট
+                        করার দরকার নেই। সরাসরি এই লিংকে যান গুগল প্লে স্টোর অথবা
+                        সরাসরি আমাদের অ্যাপ ডাউনলোড করুন এই লিংক থেকে ডাউনলোড
+                        অ্যাপ</small
+                      >
+                    </div>
+                    <div>
+                      <div
+                        class="
+                          subidaIcon
+                          bg-cl-pm
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                        "
+                      >
+                        <i class="fas fa-th-large color-white"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="subidaMiddleImg px-4 mb-5">
+                  <img src="assets/image/body/facility2.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="map bg-cl-green" id="map">
-            <div class="mapContent d-flex justify-content-end align-items-center">
-                <div class="mapLeft d-flex">
-                    <div class="container px-5 color-white">
-                        <div class="mb-3">
-                            <h3>যোগাযোগ করুন</h3>
-                        </div>
+      <div class="appointment pcPadding bg-cl-pm py-5" id="appointment">
+        <div class="container">
+          <div class="color-white fw-bold px-3 py-5 text-center">
+            <h2>এপয়েন্টমেন্ট</h2>
+            <small
+              >নব হেলথ সেবায় কোন বাড়তি ঝামেলা ছাড়াই এখন বিশেষজ্ঞ ডাক্তারের
+              এপয়েন্টমেন্ট পাওয়া যাচ্ছে। আমাদের <br />
+              মোবাইল অ্যাপ এবং ওয়েবসাইট এর মাধ্যমে আপনার পছন্দ মত ডাক্তারের
+              এপয়েন্টমেন্ট নেয়া যাবে খুব সহজেই।</small
+            >
+          </div>
+          <div class="appointmentBottom">
+            <form action="">
+              <div class="row">
+                <div class="col-xl-4">
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control border-0 py-3"
+                      placeholder="আপনার নাম"
+                      aria-label="Recipient's username"
+                      aria-describedby="basic-addon2"
+                    />
+                  </div>
+                </div>
+                <div class="col-xl-4">
+                  <div class="input-group mb-3">
+                    <input
+                      type="email"
+                      class="form-control border-0 py-3"
+                      placeholder="আপনার ইমেইল"
+                      aria-label="Recipient's username"
+                      aria-describedby="basic-addon2"
+                    />
+                  </div>
+                </div>
+                <div class="col-xl-4">
+                  <div class="input-group mb-3">
+                    <input
+                      type="number"
+                      class="form-control border-0 py-3"
+                      placeholder="আপনার ফোন"
+                      aria-label="Recipient's username"
+                      aria-describedby="basic-addon2"
+                    />
+                  </div>
+                </div>
+                <div class="col-xl-4">
+                  <div class="input-group mb-3">
+                    <input
+                      type="date"
+                      class="form-control border-0 py-3"
+                      aria-label="Recipient's username"
+                      aria-describedby="basic-addon2"
+                    />
+                  </div>
+                </div>
+                <div class="col-xl-4">
+                  <div class="input-group mb-3">
+                    <select
+                      class="form-select py-3"
+                      aria-label="Default select example"
+                    >
+                      <option selected>ডিপার্টমেন্ট সিলেক্ট করুন</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xl-4">
+                  <div class="input-group mb-3">
+                    <select
+                      class="form-select py-3"
+                      aria-label="Default select example"
+                    >
+                      <option selected>ডাক্তার সিলেক্ট করুন</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xl-12">
+                  <div class="input-group mb-3">
+                    <textarea
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                      class="w-100 border-0 p-3"
+                      placeholder="আপনার বার্তা (যদি থাকে)"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button
+                    type="submit"
+                    class="bg-cl-green border-0 color-white px-3 py-2 rounded-3"
+                  >
+                    এপয়েন্টমেন্ট
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="FaqQuestion pcPadding bg-cl-grey2 py-5" id="FaqQuestion">
+        <div class="container py-5">
+          <div class="row align-items-center">
+            <div class="col-xl-6">
+              <div class="questionLeft px-5">
+                <h2 class="cl-pm mb-3">আপনার প্রশ্ন</h2>
+                <small class="color-grey"
+                  >আপনার যেকোনো প্রশ্ন সর্বদা আমাদের কাছে গুরুত্বপূর্ণ। বিনা
+                  দ্বিধায় যেকোনো প্রশ্নের উত্তর জানুন অথবা সরাসরি আমাদের সাথে
+                  যোগাযোগ করুন।</small
+                >
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-12">
+              <div class="question px-4">
+                <div class="my-3">
+                  <!-- question title -->
+                  <div
+                    class="
+                      question-title
+                      bg-cl-pm
+                      d-flex
+                      justify-content-between
+                    "
+                  >
+                    <div class="d-flex">
+                      <div
+                        class="
+                          bg-cl-green
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                          px-3
+                          py-2
+                        "
+                      >
+                        <small class="color-white">প্রশ্ন ১ঃ </small>
+                      </div>
+                      <div class="px-3 py-2 me-2">
+                        <small class="color-white">নব হেলথ লিমিটেড কি?</small>
+                      </div>
+                    </div>
+                    <div>
+                      <button
+                        type="button"
+                        class="
+                          question-btn
+                          d-flex
+                          bg-cl-pm
+                          color-white
+                          fw-light
+                          px-3
+                          py-2
+                          rounded-3
+                          border-0
+                        "
+                      >
                         <div>
-                            <small>আমাদের সেবা নিয়ে কোন জিজ্ঞাসা কিংবা কোন পরামর্শ থাকলে আমাদের মেইল <br> করতে পারেন অথবা
-                                সরাসরি
-                                ফোন করতে পারেন আমাদের হটলাইন নাম্বারে। <br> সেবা গ্রহিতাদের সকল প্রকার পরামর্শ এবং মতামতকে
-                                নব
-                                হেলথ লিমিটেড <br> সর্বোচ্চ গুরুত্বের সাথে দেখে।</small>
+                          <span class="plus-icon">
+                            <i class="fas fa-plus"></i>
+                          </span>
+                          <span class="minus-icon">
+                            <i class="fas fa-minus"></i>
+                          </span>
                         </div>
+                      </button>
                     </div>
+                  </div>
+                  <!-- question text -->
+                  <div class="question-text bg-white p-3">
+                    <small>
+                      নব হেলথ টেলিমেডিসিন সেবা প্রদানের প্লাটফর্ম যেখানে অভিজ্ঞ
+                      চিকিৎসকদের একটি টিম ২৪/৭ ভিডিও কনফারেন্সিং এর মাধ্যমে
+                      স্বাস্থ্য সেবা প্রদান করে থাকেন।
+                    </small>
+                  </div>
                 </div>
-                <div class="mapRight">
-                    <div class="mapouter">
-                        <div class="gmap_canvas"><iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29186.92013262172!2d90.36077840966252!3d23.876671852624558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c5d05e7074dd%3A0xd1c58803049f00c7!2sUttara%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1640499182040!5m2!1sen!2sbd"
-                                height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe><a
-                                href="https://fmovies-online.net"></a><br>
-                            <style>
-                                .mapouter {
-                                    position: relative;
-                                    text-align: right;
-                                    height: 500px;
-                                }
-                            </style><a href="https://www.embedgooglemap.net"></a>
-                            <style>
-                                .gmap_canvas {
-                                    overflow: hidden;
-                                    background: none !important;
-                                    height: 500px;
-                                }
-                            </style>
+              </div>
+              <div class="question px-4">
+                <div class="my-3">
+                  <!-- question title -->
+                  <div
+                    class="
+                      question-title
+                      bg-cl-pm
+                      d-flex
+                      justify-content-between
+                    "
+                  >
+                    <div class="d-flex">
+                      <div
+                        class="
+                          bg-cl-green
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                          px-3
+                          py-2
+                        "
+                      >
+                        <small class="color-white">প্রশ্ন ২ঃ </small>
+                      </div>
+                      <div class="px-3 py-2">
+                        <small class="color-white"
+                          >নব হেলথ লিমিটেড কি ধরনের সেবা প্রদান করে থাকে?</small
+                        >
+                      </div>
+                    </div>
+                    <div>
+                      <button
+                        type="button"
+                        class="
+                          question-btn
+                          d-flex
+                          bg-cl-pm
+                          color-white
+                          fw-light
+                          px-3
+                          py-2
+                          rounded-3
+                          border-0
+                        "
+                      >
+                        <div class="">
+                          <span class="plus-icon">
+                            <i class="fas fa-plus"></i>
+                          </span>
+                          <span class="minus-icon">
+                            <i class="fas fa-minus"></i>
+                          </span>
                         </div>
+                      </button>
                     </div>
+                  </div>
+                  <!-- question text -->
+                  <div class="question-text bg-white p-3">
+                    <small>
+                      নব হেলথ টেলিমেডিসিন সেবা প্রদানের প্লাটফর্ম যেখানে অভিজ্ঞ
+                      চিকিৎসকদের একটি টিম ২৪/৭ ভিডিও কনফারেন্সিং এর মাধ্যমে
+                      স্বাস্থ্য সেবা প্রদান করে থাকেন।
+                    </small>
+                  </div>
                 </div>
+              </div>
+              <div class="question px-4">
+                <div class="my-3">
+                  <!-- question title -->
+                  <div
+                    class="
+                      question-title
+                      bg-cl-pm
+                      d-flex
+                      justify-content-between
+                    "
+                  >
+                    <div class="d-flex">
+                      <div
+                        class="
+                          bg-cl-green
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                          px-3
+                          py-2
+                        "
+                      >
+                        <small class="color-white">প্রশ্ন ৩ঃ </small>
+                      </div>
+                      <div class="px-3 py-2">
+                        <small class="color-white"
+                          >ডাক্তারের এপয়েন্টমেন্ট নেয়ার জন্য কি করতে
+                          হবে?</small
+                        >
+                      </div>
+                    </div>
+                    <div>
+                      <button
+                        type="button"
+                        class="
+                          question-btn
+                          d-flex
+                          bg-cl-pm
+                          color-white
+                          fw-light
+                          px-3
+                          py-2
+                          rounded-3
+                          border-0
+                        "
+                      >
+                        <div>
+                          <span class="plus-icon">
+                            <i class="fas fa-plus"></i>
+                          </span>
+                          <span class="minus-icon">
+                            <i class="fas fa-minus"></i>
+                          </span>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <!-- question text -->
+                  <div class="question-text bg-white p-3">
+                    <small>
+                      নব হেলথ টেলিমেডিসিন সেবা প্রদানের প্লাটফর্ম যেখানে অভিজ্ঞ
+                      চিকিৎসকদের একটি টিম ২৪/৭ ভিডিও কনফারেন্সিং এর মাধ্যমে
+                      স্বাস্থ্য সেবা প্রদান করে থাকেন।
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="question px-4">
+                <div class="my-3">
+                  <!-- question title -->
+                  <div
+                    class="
+                      question-title
+                      bg-cl-pm
+                      d-flex
+                      justify-content-between
+                    "
+                  >
+                    <div class="d-flex">
+                      <div
+                        class="
+                          bg-cl-green
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                          px-3
+                          py-2
+                        "
+                      >
+                        <small class="color-white">প্রশ্ন ৪ঃ </small>
+                      </div>
+                      <div class="px-3 py-2">
+                        <small class="color-white"
+                          >চিকিৎসা সেবা গ্রহণের ফি কিভাবে প্রদান করবো?</small
+                        >
+                      </div>
+                    </div>
+                    <div>
+                      <button
+                        type="button"
+                        class="
+                          question-btn
+                          d-flex
+                          bg-cl-pm
+                          color-white
+                          fw-light
+                          px-3
+                          py-2
+                          rounded-3
+                          border-0
+                        "
+                      >
+                        <div>
+                          <span class="plus-icon">
+                            <i class="fas fa-plus"></i>
+                          </span>
+                          <span class="minus-icon">
+                            <i class="fas fa-minus"></i>
+                          </span>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <!-- question text -->
+                  <div class="question-text bg-white p-3">
+                    <small>
+                      নব হেলথ টেলিমেডিসিন সেবা প্রদানের প্লাটফর্ম যেখানে অভিজ্ঞ
+                      চিকিৎসকদের একটি টিম ২৪/৭ ভিডিও কনফারেন্সিং এর মাধ্যমে
+                      স্বাস্থ্য সেবা প্রদান করে থাকেন।
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="question px-4">
+                <div class="my-3">
+                  <!-- question title -->
+                  <div
+                    class="
+                      question-title
+                      bg-cl-pm
+                      d-flex
+                      justify-content-between
+                    "
+                  >
+                    <div class="d-flex">
+                      <div
+                        class="
+                          bg-cl-green
+                          d-flex
+                          justify-content-center
+                          align-items-center
+                          px-3
+                          py-2
+                        "
+                      >
+                        <small class="color-white">প্রশ্ন ৫ঃ </small>
+                      </div>
+                      <div class="px-3 py-2">
+                        <small class="color-white"
+                          >সেবা গ্রহিতার তথ্যের নিরাপত্তা কিভাবে প্রদান করা
+                          হয়?</small
+                        >
+                      </div>
+                    </div>
+                    <div>
+                      <button
+                        type="button"
+                        class="
+                          question-btn
+                          d-flex
+                          bg-cl-pm
+                          color-white
+                          fw-light
+                          px-3
+                          py-2
+                          rounded-3
+                          border-0
+                        "
+                      >
+                        <div>
+                          <span class="plus-icon">
+                            <i class="fas fa-plus"></i>
+                          </span>
+                          <span class="minus-icon">
+                            <i class="fas fa-minus"></i>
+                          </span>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <!-- question text -->
+                  <div class="question-text bg-white p-3">
+                    <small>
+                      নব হেলথ টেলিমেডিসিন সেবা প্রদানের প্লাটফর্ম যেখানে অভিজ্ঞ
+                      চিকিৎসকদের একটি টিম ২৪/৭ ভিডিও কনফারেন্সিং এর মাধ্যমে
+                      স্বাস্থ্য সেবা প্রদান করে থাকেন।
+                    </small>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="contact pcPadding bg-cl-grey2 py-5" id="contact">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-10">
-                        <div class="row mb-5">
-                            <div class="col-xl-4 col-lg-4 col-md-4 mb-2">
-                                <div class="location d-flex align-items-center">
-                                    <div class="contactIcon d-flex justify-content-center align-items-center me-3">
-                                        <i class="fas fa-map-marker-alt cl-pm"></i>
-                                    </div>
-                                    <div>
-                                        <h4 class="cl-pm fw-bold">লোকেশনঃ</h4>
-                                        <small class="color-grey">৬০২/১-(২বি), পূর্ব কাজিপাড়া, মিরপুর, ঢাকা-১২১৬</small>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 mb-2">
-                                <div class="email d-flex align-items-center">
-                                    <div class="contactIcon d-flex justify-content-center align-items-center me-3">
-                                        <i class="far fa-envelope-open cl-pm"></i>
-                                    </div>
-                                    <div>
-                                        <h4 class="cl-pm fw-bold">ইমেইলঃ</h4>
-                                        <small class="color-grey">info@nobohealth.com.bd</small>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 mb-2">
-                                <div class="hotline d-flex align-items-center">
-                                    <div class="contactIcon d-flex justify-content-center align-items-center me-3">
-                                        <i class="fas fa-phone-alt cl-pm"></i>
-                                    </div>
-                                    <div>
-                                        <h4 class="cl-pm fw-bold">হটলাইনঃ</h4>
-                                        <small class="color-grey">09606 996655</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <form action="">
-                            <div class="row">
-                                <div class="col-xl-4">
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control border-0 py-3" placeholder="আপনার নাম"
-                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    </div>
-                                </div>
-                                <div class="col-xl-4">
-                                    <div class="input-group mb-3">
-                                        <input type="email" class="form-control border-0 py-3" placeholder="আপনার ইমেইল"
-                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    </div>
-                                </div>
-                                <div class="col-xl-4">
-                                    <div class="input-group mb-3">
-                                        <input type="number" class="form-control border-0 py-3" placeholder="আপনার ফোন"
-                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control border-0 py-3" placeholder="বিষয়"
-                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                    </div>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="input-group mb-3">
-                                        <textarea name="" id="" cols="30" rows="10" class="w-100 border-0 p-3"
-                                            placeholder="আপনার বার্তা (যদি থাকে)"></textarea>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-center">
-                                    <button type="submit"
-                                        class="bg-cl-pm border-0 color-white px-3 py-2 rounded-3">বার্তা
-                                        পাঠান</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+      <div class="downloadApp pcPadding bg-cl-pm py-5" id="downloadApp">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-6">
+              <div class="downloadAppLeft px-5 mb-5">
+                <div class="mb-4">
+                  <h2 class="color-white mb-3">ডাউনলোড</h2>
+                  <small class="color-white"
+                    >যেকোনো ইন্টারনেট ও ওয়েব ব্রাউজারে আমাদের নব হেলথ সিস্টেম
+                    চলতে পারে বিনা বাঁধায়। যেকোনো ইলেক্ট্রিক ডিভাইসে সব গুলো
+                    আমাদের এই সিস্টেম সব ধরনের কন্টেন্ট, ছবি ও অন্যান্য তথ্য
+                    দেখাতে সক্ষম।</small
+                  >
                 </div>
+                <div class="downloadAppLeftIcon d-flex">
+                  <div
+                    class="
+                      downloadAppLeftIcon1
+                      d-flex
+                      align-items-center
+                      bg-cl-light-black
+                      me-2
+                      px-4
+                      py-2
+                      rounded-3
+                      cursor
+                      mb-2
+                    "
+                  >
+                    <div class="me-2">
+                      <i class="fab fa-google-play cl-blue"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <small class="color-white">Google Play</small>
+                      <small class="color-grey">Get It Now</small>
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      align-items-center
+                      bg-cl-light-black
+                      px-4
+                      py-2
+                      rounded-3
+                      cursor
+                      mb-2
+                    "
+                  >
+                    <div class="me-2">
+                      <i class="fab fa-app-store-ios cl-blue"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <small class="color-white">Apple Store</small>
+                      <small class="color-grey">Get It Now</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="col-xl-6">
+              <div class="downloadAppRight">
+                <img src="assets/image/body/download.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- main footer -->
-        <footer class="footer">
-            <div class="container">
-                <div class="footerContent d-flex flex-wrap justify-content-between">
-                    <div class="content1 mb-3">
-                        <div class="content1-image mb-4">
-                            <img src="assets/image/footer/footerLogo.png" alt="">
-                        </div>
-                        <div class="content1-content mb-4">
-                            <p class="text-white mb-0">আপনার স্বাস্থ্য সুরক্ষার সার্বিক দিক বিবেচনায় </p>
-                            <p class="text-white mb-0">নব-হেলথ লিমিটেড নিয়ে এসেছে বাংলাদেশের </p>
-                            <p class="text-white mb-0">সর্ববৃহৎ টেলি-মেডিসিন সেবা সবচেয়ে সাশ্রয়ী </p>
-                            <p class="text-white mb-0">মূল্যে।</p>
-                        </div>
-                        <div class="content1-bottom">
-                            <h6 class="text-white mb-4">আমাদের পেমেন্ট পার্টনার -</h6>
-                            <div class="bottom-image">
-                                <img src="assets/image/footer/paymentPartner.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content2 mb-3">
-                        <h4 class="text-white mb-4">প্রয়োজনীয় লিঙ্ক</h4>
-                        <ul class="text-white">
-                            <li>হোম</li>
-                            <li>আমাদের সম্পর্কে জানুন</li>
-                            <li>সার্ভিস</li>
-                            <li>ব্যাবহারের শর্তাবলি</li>
-                            <li>গোপনীয়তা</li>
-                        </ul>
-                    </div>
-                    <div class="content3 mb-3">
-                        <h4 class="text-white mb-4">আমাদের সেবাসমুহ</h4>
-                        <ul class="text-white">
-                            <li>ফ্রী স্বাস্থ্যসেবা</li>
-                            <li>অনলাইন এপোয়েন্টমেন্ট</li>
-                            <li>ভিডিও কল সেবা</li>
-                            <li>স্বাস্থ্য জিজ্ঞাসা</li>
-                        </ul>
-                    </div>
-                    <div class="content4 mb-3">
-                        <h4 class="text-white mb-4">ঠিকানা</h4>
-                        <ul class="text-white mb-4">
-                            <li>ফোনঃ 09606 996655</li>
-                            <li>ইমেইলঃ info@nobohealth.com.bd</li>
-                        </ul>
-                        <h4 class="text-white mb-4">সাবস্ক্রাইব</h4>
-                        <form action="">
-                            <div class="input-group mb-3 subscribe-group">
-                                <input type="text" class="form-control " placeholder="আপনার ইমেইল এড্রেস"
-                                    aria-label="আপনার ইমেইল এড্রেস" aria-describedby="button-addon2">
-                                <button class="btn text-white bg-cl-pm px-3 bg-cl-green" type="submit"
-                                    id="button-addon2"><i class="fas fa-caret-right"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+      </div>
+
+      <div class="map bg-cl-green" id="map">
+        <div class="mapContent d-flex justify-content-end align-items-center">
+          <div class="mapLeft d-flex">
+            <div class="container px-5 color-white">
+              <div class="mb-3">
+                <h3>যোগাযোগ করুন</h3>
+              </div>
+              <div>
+                <small
+                  >আমাদের সেবা নিয়ে কোন জিজ্ঞাসা কিংবা কোন পরামর্শ থাকলে আমাদের
+                  মেইল <br />
+                  করতে পারেন অথবা সরাসরি ফোন করতে পারেন আমাদের হটলাইন নাম্বারে।
+                  <br />
+                  সেবা গ্রহিতাদের সকল প্রকার পরামর্শ এবং মতামতকে নব হেলথ লিমিটেড
+                  <br />
+                  সর্বোচ্চ গুরুত্বের সাথে দেখে।</small
+                >
+              </div>
             </div>
-        </footer>
-        <!----------Copy Right------------------->
-        <footer class="copyRight">
-            <div class="copyRightContent container d-flex justify-content-between align-items-center">
-                <div class="copyRightContentLeft w-50 cl-pm fw-bold fs12 mb-2">
-                    &copy; কপিরাইট . সর্বসত্ত সংরক্ষিত।
-                    <br>
-                    Powered By নব হেলথ লিমিটেড
-                </div>
-                <div class="copyRightContentRight d-flex flex-wrap justify-content-center">
-                    <div class="icon me-3 mb-2">
-                        <a href="">
-                            <i class="fab fa-facebook-f "></i>
-                        </a>
-                    </div>
-                    <div class="icon me-3 mb-2">
-                        <a href="">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </div>
-                    <div class="icon me-3 mb-2">
-                        <a href="">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </div>
-                    <div class="icon me-3 mb-2">
-                        <a href="">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
-                </div>
+          </div>
+          <div class="mapRight">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29186.92013262172!2d90.36077840966252!3d23.876671852624558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c5d05e7074dd%3A0xd1c58803049f00c7!2sUttara%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1640499182040!5m2!1sen!2sbd"
+                  height="500"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe
+                ><a href="https://fmovies-online.net"></a><br />
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                  }</style
+                ><a href="https://www.embedgooglemap.net"></a>
+                <style>
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                  }
+                </style>
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact pcPadding bg-cl-grey2 py-5" id="contact">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="row mb-5">
+                <div class="col-xl-4 col-lg-4 col-md-4 mb-2">
+                  <div class="location d-flex align-items-center">
+                    <div
+                      class="
+                        contactIcon
+                        d-flex
+                        justify-content-center
+                        align-items-center
+                        me-3
+                      "
+                    >
+                      <i class="fas fa-map-marker-alt cl-pm"></i>
+                    </div>
+                    <div>
+                      <h4 class="cl-pm fw-bold">লোকেশনঃ</h4>
+                      <small class="color-grey"
+                        >৬০২/১-(২বি), পূর্ব কাজিপাড়া, মিরপুর, ঢাকা-১২১৬</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 mb-2">
+                  <div class="email d-flex align-items-center">
+                    <div
+                      class="
+                        contactIcon
+                        d-flex
+                        justify-content-center
+                        align-items-center
+                        me-3
+                      "
+                    >
+                      <i class="far fa-envelope-open cl-pm"></i>
+                    </div>
+                    <div>
+                      <h4 class="cl-pm fw-bold">ইমেইলঃ</h4>
+                      <small class="color-grey">info@nobohealth.com.bd</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 mb-2">
+                  <div class="hotline d-flex align-items-center">
+                    <div
+                      class="
+                        contactIcon
+                        d-flex
+                        justify-content-center
+                        align-items-center
+                        me-3
+                      "
+                    >
+                      <i class="fas fa-phone-alt cl-pm"></i>
+                    </div>
+                    <div>
+                      <h4 class="cl-pm fw-bold">হটলাইনঃ</h4>
+                      <small class="color-grey">09606 996655</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <form action="">
+                <div class="row">
+                  <div class="col-xl-4">
+                    <div class="input-group mb-3">
+                      <input
+                        type="text"
+                        class="form-control border-0 py-3"
+                        placeholder="আপনার নাম"
+                        aria-label="Recipient's username"
+                        aria-describedby="basic-addon2"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-xl-4">
+                    <div class="input-group mb-3">
+                      <input
+                        type="email"
+                        class="form-control border-0 py-3"
+                        placeholder="আপনার ইমেইল"
+                        aria-label="Recipient's username"
+                        aria-describedby="basic-addon2"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-xl-4">
+                    <div class="input-group mb-3">
+                      <input
+                        type="number"
+                        class="form-control border-0 py-3"
+                        placeholder="আপনার ফোন"
+                        aria-label="Recipient's username"
+                        aria-describedby="basic-addon2"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-xl-12">
+                    <div class="input-group mb-3">
+                      <input
+                        type="text"
+                        class="form-control border-0 py-3"
+                        placeholder="বিষয়"
+                        aria-label="Recipient's username"
+                        aria-describedby="basic-addon2"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-xl-12">
+                    <div class="input-group mb-3">
+                      <textarea
+                        name=""
+                        id=""
+                        cols="30"
+                        rows="10"
+                        class="w-100 border-0 p-3"
+                        placeholder="আপনার বার্তা (যদি থাকে)"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <button
+                      type="submit"
+                      class="bg-cl-pm border-0 color-white px-3 py-2 rounded-3"
+                    >
+                      বার্তা পাঠান
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- main footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footerContent d-flex flex-wrap justify-content-between">
+            <div class="content1 mb-3">
+              <div class="content1-image mb-4">
+                <img src="assets/image/footer/footerLogo.png" alt="" />
+              </div>
+              <div class="content1-content mb-4">
+                <p class="text-white mb-0">
+                  আপনার স্বাস্থ্য সুরক্ষার সার্বিক দিক বিবেচনায়
+                </p>
+                <p class="text-white mb-0">
+                  নব-হেলথ লিমিটেড নিয়ে এসেছে বাংলাদেশের
+                </p>
+                <p class="text-white mb-0">
+                  সর্ববৃহৎ টেলি-মেডিসিন সেবা সবচেয়ে সাশ্রয়ী
+                </p>
+                <p class="text-white mb-0">মূল্যে।</p>
+              </div>
+              <div class="content1-bottom">
+                <h6 class="text-white mb-4">আমাদের পেমেন্ট পার্টনার -</h6>
+                <div class="bottom-image">
+                  <img src="assets/image/footer/paymentPartner.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="content2 mb-3">
+              <h4 class="text-white mb-4">প্রয়োজনীয় লিঙ্ক</h4>
+              <ul class="text-white">
+                <li>হোম</li>
+                <li>আমাদের সম্পর্কে জানুন</li>
+                <li>সার্ভিস</li>
+                <li>ব্যাবহারের শর্তাবলি</li>
+                <li>গোপনীয়তা</li>
+              </ul>
+            </div>
+            <div class="content3 mb-3">
+              <h4 class="text-white mb-4">আমাদের সেবাসমুহ</h4>
+              <ul class="text-white">
+                <li>ফ্রী স্বাস্থ্যসেবা</li>
+                <li>অনলাইন এপোয়েন্টমেন্ট</li>
+                <li>ভিডিও কল সেবা</li>
+                <li>স্বাস্থ্য জিজ্ঞাসা</li>
+              </ul>
+            </div>
+            <div class="content4 mb-3">
+              <h4 class="text-white mb-4">ঠিকানা</h4>
+              <ul class="text-white mb-4">
+                <li>ফোনঃ 09606 996655</li>
+                <li>ইমেইলঃ info@nobohealth.com.bd</li>
+              </ul>
+              <h4 class="text-white mb-4">সাবস্ক্রাইব</h4>
+              <form action="">
+                <div class="input-group mb-3 subscribe-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="আপনার ইমেইল এড্রেস"
+                    aria-label="আপনার ইমেইল এড্রেস"
+                    aria-describedby="button-addon2"
+                  />
+                  <button
+                    class="btn text-white bg-cl-pm px-3 bg-cl-green"
+                    type="submit"
+                    id="button-addon2"
+                  >
+                    <i class="fas fa-caret-right"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!----------Copy Right------------------->
+      <footer class="copyRight">
+        <div
+          class="
+            copyRightContent
+            container
+            d-flex
+            justify-content-between
+            align-items-center
+          "
+        >
+          <div class="copyRightContentLeft w-50 cl-pm fw-bold fs12 mb-2">
+            &copy; কপিরাইট . সর্বসত্ত সংরক্ষিত।
+            <br />
+            Powered By নব হেলথ লিমিটেড
+          </div>
+          <div
+            class="
+              copyRightContentRight
+              d-flex
+              flex-wrap
+              justify-content-center
+            "
+          >
+            <div class="icon me-3 mb-2">
+              <a href="">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="icon me-3 mb-2">
+              <a href="">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+            <div class="icon me-3 mb-2">
+              <a href="">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="icon me-3 mb-2">
+              <a href="">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </section>
 
     <!----------------Js--------->
     <script src="JS/script.js"></script>
 
     <script>
-        //Mock test View Result
+      //Mock test View Result
 
-        //using selectors inside the element
-        const questions = document.querySelectorAll(".question");
+      //using selectors inside the element
+      const questions = document.querySelectorAll(".question");
 
-        questions.forEach(function (question) {
-            const btn = question.querySelector(".question-btn");
-            // console.log(btn);
+      questions.forEach(function (question) {
+        const btn = question.querySelector(".question-btn");
+        // console.log(btn);
 
-            btn.addEventListener("click", function () {
-                // console.log(question);
+        btn.addEventListener("click", function () {
+          // console.log(question);
 
-                questions.forEach(function (item) {
-                    if (item !== question) {
-                        item.classList.remove("Show-text");
-                    }
-                });
+          questions.forEach(function (item) {
+            if (item !== question) {
+              item.classList.remove("Show-text");
+            }
+          });
 
-                question.classList.toggle("Show-text");
-            });
+          question.classList.toggle("Show-text");
         });
+      });
     </script>
-
-</body>
-
+  </body>
 </html>
