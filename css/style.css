@@ -1,6 +1,6 @@
 @font-face {
   font-family: Font;
-  src: url(../assets/font/font.ttf);
+  src: url(../assets/font/Li\ Ador\ Noirrit\ Unicode.ttf);
 }
 
 * {
@@ -385,11 +385,37 @@ input.check-toggle-round-flat + label:after {
 
 /* Home top Banner*/
 
-.homeTopBanner {
-  padding: 230px 0;
-  background-image: url(../assets/image/body/homeTopBanner.png);
-  background-position: center;
+.homeCarousalItem1 {
+  background-image: url(../assets/image/body/homeTopBanner\ 1.svg);
   background-size: cover;
+  background-position: center;
+}
+
+.homeCarousalItem2 {
+  background-image: url(../assets/image/body/homeTopBanner\ 2.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.homeCarousalItem3 {
+  background-image: url(../assets/image/body/homeTopBanner\ 3.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.homeCarousalItem4 {
+  background-image: url(../assets/image/body/homeTopBanner\ 4.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.homeCarousal {
+  min-height: 80vh;
+  position: relative;
+}
+
+.homeTopBannerLeft {
+  padding: 200px 0;
 }
 
 .btn-2 button {
@@ -623,10 +649,8 @@ input.check-toggle-round-flat + label:after {
   .doctorTopContent {
     flex-direction: column;
   }
-  .homeTopBannerLeft h3,
-  .homeTopBannerLeft h4,
-  .homeTopBannerLeft small {
-    color: rgb(32, 28, 28) !important;
+  .homeTopBannerLeft {
+    padding: 100px 0 !important;
   }
 }
 @media (max-width: 700px) {
